@@ -1,0 +1,1 @@
+WASD_Move(oCamera, 6);
