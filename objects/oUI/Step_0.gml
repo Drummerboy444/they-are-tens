@@ -6,9 +6,8 @@ if(mouse_check_button_pressed(mb_left)){
 		window_mouse_get_y() < icon_1_Y2
 	)
 	{
-		selectedSupply = oTree;
 		with(oVillager){
-			if(targetSupply == oRock){
+			if(selected){
 				targetSupply = oTree;	
 			}
 		}
@@ -21,9 +20,8 @@ if(mouse_check_button_pressed(mb_left)){
 		window_mouse_get_y() < icon_2_Y2
 	)
 	{
-		selectedSupply = oRock;
 		with(oVillager){
-			if(targetSupply == oTree){
+			if(selected){
 				targetSupply = oRock;	
 			}
 		}

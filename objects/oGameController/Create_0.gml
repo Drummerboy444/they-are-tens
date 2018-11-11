@@ -50,7 +50,7 @@ CreateInstances(globalObjects);
 // Initialise game objects
 gameObjects = ds_map_create();
 ds_map_add(gameObjects, oVillage, [[7, 4]]);
-ds_map_add(gameObjects, oVillager, [[7, 4]]);
+ds_map_add(gameObjects, oVillager, [[7, 4], [1, 2]]);
 ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
 ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);
 CreateInstances(gameObjects);
