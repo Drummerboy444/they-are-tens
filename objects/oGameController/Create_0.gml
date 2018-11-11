@@ -11,3 +11,4 @@ enum VillagerMode {
 // value: array of buildings
 resourceDropOffMap = ds_map_create();
 ds_map_add(resourceDropOffMap, oWood, [oVillage, oLumberMill]);
+ds_map_add(resourceDropOffMap, oStone, [oVillage]);
