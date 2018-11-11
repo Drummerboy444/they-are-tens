@@ -22,7 +22,6 @@ if(mouse_check_button_pressed(mb_left)){
 	)
 	{
 		selectedSupply = oRock;
-		show_debug_message("Clicked 2");
 		with(oVillager){
 			if(targetSupply == oTree){
 				targetSupply = oRock;	
