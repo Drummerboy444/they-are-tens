@@ -1,28 +1,29 @@
 switch mode {
 	case VillagerMode.leaving:
-		var nearestTree = FindNearest(targetResource);
-		if (nearestTree == noone) {
+		var nearestResource = FindNearest(targetResource);
+		if (nearestResource == noone) {
 			mode = VillagerMode.idle;
 			break;
 		}
-		var hasArrived = MoveTowards(nearestTree, walkSpeed);
+		var hasArrived = MoveTowards(nearestResource, walkSpeed);
 		if (hasArrived) {
-			mode = VillagerMode.gatheringWood;
+			mode = VillagerMode.gathering;
 		}
 		break;
 	case VillagerMode.returning:
-		var nearestVillage = FindNearest(oVillage);
-		var hasArrived = MoveTowards(nearestVillage, walkSpeed);
+		var dropOffBuildings = GetDropOffBuildings(oWood);
+		var nearestDropOff = FindNearest(dropOffBuildings);
+		var hasArrived = MoveTowards(nearestDropOff, walkSpeed);
 		if (hasArrived) {
 			mode = VillagerMode.depositing;
 		}
 		break;
-	case VillagerMode.gatheringWood:
-		var nearestTree = FindNearest(targetResource);
-		if (nearestTree == noone) {
+	case VillagerMode.gathering:
+		var nearestResource = FindNearest(targetResource);
+		if (nearestResource == noone) {
 			mode = VillagerMode.idle;
-		} else if (point_distance(x, y, nearestTree.x, nearestTree.y) < walkSpeed) {
-			holding = Gather(nearestTree);
+		} else if (point_distance(x, y, nearestResource.x, nearestResource.y) < walkSpeed) {
+			holding = Gather(nearestResource);
 			mode = VillagerMode.returning;
 		} else {
 			mode = VillagerMode.leaving;
