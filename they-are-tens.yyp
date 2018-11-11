@@ -226,7 +226,7 @@
             "Key": "72494be5-3565-4345-8217-0afd405fbd89",
             "Value": {
                 "id": "fd0841b1-f72b-4350-b657-d8c5b39f6516",
-                "resourcePath": "scripts\\GetVillagersWithin\\GetVillagersWithin.yy",
+                "resourcePath": "scripts\\SelectVillagers\\SelectVillagers.yy",
                 "resourceType": "GMScript"
             }
         },

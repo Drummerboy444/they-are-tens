@@ -1,6 +1,5 @@
-/// @description GetVillagersWithin(x1, y1, x2, y2) returns a list of villagers within a bounding box, the
-///                                                 bounding box can be defined in any order (ie left to
-///                                                 right or right to left etc).
+/// @description SelectVillagers(x1, y1, x2, y2) Changes the selected variable of any villagers within a
+///                                                    bounding box to true and returns a list of all such villagers
 /// @arg x1 start x position
 /// @arg y1 start y position
 /// @arg x2 end x position
@@ -16,7 +15,8 @@ var endX = max(x1, x2);
 var endY = max(y1, y2);
 var villagersWithin = ds_list_create();
 with (oVillager) {
-	if (collision_rectangle(startX, startY, endX, endY, id, false, false)) {
+	selected = collision_rectangle(startX, startY, endX, endY, id, false, false);
+	if (selected) {
 		ds_list_add(villagersWithin, id);
 	}
 }

@@ -1,2 +1,2 @@
 /// @description selecting delay
-selecting = true;
+dragging = true;
