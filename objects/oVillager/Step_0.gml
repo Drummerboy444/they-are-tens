@@ -13,9 +13,11 @@ switch mode {
 	case VillagerMode.returning:
 		var dropOffBuildings = GetDropOffBuildings(holding);
 		var nearestDropOff = FindNearest(dropOffBuildings);
-		var hasArrived = MoveTowards(nearestDropOff, walkSpeed);
-		if (hasArrived) {
-			mode = VillagerMode.depositing;
+		if (nearestDropOff != noone) {
+			var hasArrived = MoveTowards(nearestDropOff, walkSpeed);
+			if (hasArrived) {
+				mode = VillagerMode.depositing;
+			}
 		}
 		break;
 	case VillagerMode.gathering:
