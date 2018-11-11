@@ -5,6 +5,7 @@ iconH = 64;
 iconGap = 20;
 
 selectedSupply = oRock;
+selectedBuilding = noone;
 
 icon_1_X1 = iconGap;
 icon_1_Y1 = viewH-iconGap-iconH;
@@ -15,3 +16,8 @@ icon_2_X1 = 2*iconGap+iconW;
 icon_2_Y1 = viewH-iconGap-iconH;
 icon_2_X2 = 2*iconGap+2*iconW;
 icon_2_Y2 = viewH-iconGap;
+
+building_1_X1 = viewW-iconGap-iconH;
+building_1_Y1 = viewH-iconGap-iconH;
+building_1_X2 = viewW-iconGap;
+building_1_Y2 = viewH-iconGap;
