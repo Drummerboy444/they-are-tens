@@ -1,3 +1,7 @@
+// To change colour of sprite if it's selected and to tell this villager if it's selected
+selected = ds_list_find_index(oVillagerSelect.selected, id) > -1
+image_index = selected ? 1 : 0;
+
 switch mode {
 	case VillagerMode.leaving:
 		var nearestResource = FindNearest(targetSupply);

@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "72494be5-3565-4345-8217-0afd405fbd89",
+            "Value": {
+                "id": "fd0841b1-f72b-4350-b657-d8c5b39f6516",
+                "resourcePath": "scripts\\GetVillagersWithin\\GetVillagersWithin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "737c2197-9c80-47a0-bd03-1cc31656d55c",
             "Value": {
                 "id": "c5ca5580-d1ff-4296-bf4b-3f4fe60fb305",
@@ -284,6 +292,14 @@
                 "id": "6923189a-126a-436a-bca1-298ba26f4962",
                 "resourcePath": "sprites\\sVillage\\sVillage.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f39382d-c7b9-47ea-b0c0-b47df945535f",
+            "Value": {
+                "id": "38674c7d-0d4b-4cb0-8fbd-7cafdc99540d",
+                "resourcePath": "objects\\oVillagerSelect\\oVillagerSelect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,7 +463,8 @@
         "e9841fde-47c0-4518-85d1-f2cb9208209b",
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
-        "59ea6c57-4493-4ae3-85ba-a79ad7005671"
+        "59ea6c57-4493-4ae3-85ba-a79ad7005671",
+        "72494be5-3565-4345-8217-0afd405fbd89"
     ],
     "tutorial": ""
 }
