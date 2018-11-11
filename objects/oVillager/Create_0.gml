@@ -1,6 +1,6 @@
 walkSpeed = 3;
 
-targetResource = oTree;
+targetSupply = oRock;
 holding = noone;
 
 mode = VillagerMode.leaving;

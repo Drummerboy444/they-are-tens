@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1d8160e5-47d5-4466-8211-d3997c620b77",
+            "Value": {
+                "id": "15752994-c125-40a6-b07b-433f99eff5d5",
+                "resourcePath": "sprites\\sRock\\sRock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "277e9d65-6eb3-404a-baca-ca52f15ecca6",
             "Value": {
                 "id": "94479eb9-1574-4648-ac50-8ef7445fb97b",
@@ -99,6 +107,14 @@
             "Value": {
                 "id": "a46934cf-8946-4705-8fe0-8bcf67d01f98",
                 "resourcePath": "objects\\oVillager\\oVillager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3f370705-fea6-4bcd-a9be-6daf9653eca7",
+            "Value": {
+                "id": "40c0158a-b2db-4ae0-9ee6-14d6a2235cf1",
+                "resourcePath": "objects\\oStone\\oStone.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -124,6 +140,14 @@
                 "id": "ce7e3014-8b9a-414f-b8ac-b833d387f18e",
                 "resourcePath": "scripts\\Gather\\Gather.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "559b1749-46e0-4978-9574-764f037b3e13",
+            "Value": {
+                "id": "65cc803d-ae5b-4a77-b5ec-6fb16e88b8c9",
+                "resourcePath": "objects\\oRock\\oRock.yy",
+                "resourceType": "GMObject"
             }
         },
         {

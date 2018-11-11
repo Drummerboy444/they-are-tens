@@ -1,6 +1,6 @@
 switch mode {
 	case VillagerMode.leaving:
-		var nearestResource = FindNearest(targetResource);
+		var nearestResource = FindNearest(targetSupply);
 		if (nearestResource == noone) {
 			mode = VillagerMode.idle;
 			break;
@@ -11,7 +11,7 @@ switch mode {
 		}
 		break;
 	case VillagerMode.returning:
-		var dropOffBuildings = GetDropOffBuildings(oWood);
+		var dropOffBuildings = GetDropOffBuildings(holding);
 		var nearestDropOff = FindNearest(dropOffBuildings);
 		var hasArrived = MoveTowards(nearestDropOff, walkSpeed);
 		if (hasArrived) {
@@ -19,7 +19,7 @@ switch mode {
 		}
 		break;
 	case VillagerMode.gathering:
-		var nearestResource = FindNearest(targetResource);
+		var nearestResource = FindNearest(targetSupply);
 		if (nearestResource == noone) {
 			mode = VillagerMode.idle;
 		} else if (point_distance(x, y, nearestResource.x, nearestResource.y) < walkSpeed) {
