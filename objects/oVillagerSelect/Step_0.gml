@@ -2,6 +2,7 @@ if (mouse_check_button_pressed(mb_left)) {
 	showDragBox = true;
 	startX = mouse_x;
 	startY = mouse_y;
+	// If we dont drag the mouse then we will select this villager
 	clickedVillager = instance_position(mouse_x, mouse_y, oVillager);
 }
 
