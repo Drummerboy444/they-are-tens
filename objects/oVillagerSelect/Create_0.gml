@@ -3,8 +3,5 @@ startY = 0;
 endX = 0;
 endY = 0;
 
-dragging = false;
+showDragBox = false;
 clickedVillager = noone;
-
-// To only start selecting after a certain time
-draggingTimeBuffer = 3;
