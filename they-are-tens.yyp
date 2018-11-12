@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "08e27fff-3145-43ee-802a-e02959378f51",
+            "Value": {
+                "id": "d2655513-b4f7-4671-b7b6-2da611a33e3f",
+                "resourcePath": "scripts\\WASD_Move\\WASD_Move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0b744a87-8277-435f-b923-6f1d1abbbb55",
             "Value": {
                 "id": "e57bbe33-d0d7-4fb3-a749-161cb7cbb74a",
@@ -76,6 +84,14 @@
                 "id": "fbce8644-5a41-4d62-8907-3e9c2f49601b",
                 "resourcePath": "scripts\\SelectVillager\\SelectVillager.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1abc0904-456c-41f9-8e94-d11c308ba007",
+            "Value": {
+                "id": "8ae879cc-2596-4c93-9648-445c08f80799",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,6 +508,7 @@
         "5eff085d-f556-4ece-955c-ab75334ac785",
         "509b1915-41fe-4375-b411-59a5b0ae34fb",
         "657c6e09-73fe-413a-b4d7-a7c9b0636f71",
+        "08e27fff-3145-43ee-802a-e02959378f51",
         "e9841fde-47c0-4518-85d1-f2cb9208209b",
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
