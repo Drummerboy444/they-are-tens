@@ -7,23 +7,8 @@ draw_set_halign(fa_left);
 draw_text(100, 20, string(oWood.count));
 draw_text(100, 40, string(oStone.count));
 
-draw_set_alpha(0.5);
-draw_set_color(c_black);
-draw_rectangle(icon_1_X1, icon_1_Y1, icon_1_X2, icon_1_Y2, false);
-draw_set_alpha(1);
-draw_sprite_ext(sTree,0,icon_1_X1+0.5*iconW, icon_1_Y1+0.5*iconH,3,3,0,c_white,1);
+DrawUIButton(0,iconSize,iconGap,sTree);
 
-draw_set_alpha(0.5);
-draw_set_color(c_black);
-draw_rectangle(icon_2_X1, icon_2_Y1, icon_2_X2, icon_2_Y2, false);
-draw_set_alpha(1);
-draw_sprite_ext(sRock,0,icon_2_X1+0.5*iconW, icon_2_Y1+0.5*iconH,3,3,0,c_white,1);
+DrawUIButton(1,iconSize,iconGap,sRock);
 
-draw_set_alpha(0.5);
-draw_set_color(c_black);
-if(selectedBuilding == oLumberMill){
-	draw_set_color(c_yellow);
-}
-draw_rectangle(building_1_X1, building_1_Y1, building_1_X2, building_1_Y2, false);
-draw_set_alpha(1);
-draw_sprite_ext(sLumberMill,0,building_1_X1+0.5*iconW, building_1_Y1+0.5*iconH,1.5,1.5,0,c_white,1);
+DrawUIButton(2,iconSize,iconGap,sLumberMill);
