@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1e07dcb5-a439-4fc4-a6ae-cb7ba25938d1",
+            "Value": {
+                "id": "af04c687-5a95-4a47-a997-477de0ed6060",
+                "resourcePath": "objects\\oQuarry\\oQuarry.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "257a7c52-7e8f-4e2c-af38-11866fc5c015",
             "Value": {
                 "id": "a216cd59-e00e-4550-952b-74bea26f34bc",
@@ -180,6 +188,14 @@
                 "id": "ce7e3014-8b9a-414f-b8ac-b833d387f18e",
                 "resourcePath": "scripts\\Gather\\Gather.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "51babcd7-1cda-4b23-a8e5-53a10816ca5d",
+            "Value": {
+                "id": "14406954-dad3-4b24-a858-ae874b46b409",
+                "resourcePath": "sprites\\sQuarry\\sQuarry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
