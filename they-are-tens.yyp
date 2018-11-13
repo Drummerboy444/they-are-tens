@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
+            "Value": {
+                "id": "fbce8644-5a41-4d62-8907-3e9c2f49601b",
+                "resourcePath": "scripts\\SelectVillager\\SelectVillager.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1abc0904-456c-41f9-8e94-d11c308ba007",
             "Value": {
                 "id": "8ae879cc-2596-4c93-9648-445c08f80799",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "72494be5-3565-4345-8217-0afd405fbd89",
+            "Value": {
+                "id": "fd0841b1-f72b-4350-b657-d8c5b39f6516",
+                "resourcePath": "scripts\\SelectVillagers\\SelectVillagers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "737c2197-9c80-47a0-bd03-1cc31656d55c",
             "Value": {
                 "id": "c5ca5580-d1ff-4296-bf4b-3f4fe60fb305",
@@ -267,6 +283,14 @@
             "Value": {
                 "id": "d92980a4-86c6-4faf-98c1-d766baa7a750",
                 "resourcePath": "views\\8330c8e3-27d9-4aba-bfa6-0f8f4677761e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "84e11d3c-ebc5-440b-b491-beee39c16434",
+            "Value": {
+                "id": "5384de68-4416-4596-86d0-28788d814716",
+                "resourcePath": "views\\84e11d3c-ebc5-440b-b491-beee39c16434.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -316,6 +340,14 @@
                 "id": "6923189a-126a-436a-bca1-298ba26f4962",
                 "resourcePath": "sprites\\sVillage\\sVillage.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f39382d-c7b9-47ea-b0c0-b47df945535f",
+            "Value": {
+                "id": "38674c7d-0d4b-4cb0-8fbd-7cafdc99540d",
+                "resourcePath": "objects\\oVillagerSelect\\oVillagerSelect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -481,7 +513,9 @@
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
         "59ea6c57-4493-4ae3-85ba-a79ad7005671",
-        "257a7c52-7e8f-4e2c-af38-11866fc5c015"
+        "257a7c52-7e8f-4e2c-af38-11866fc5c015",
+        "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
+        "72494be5-3565-4345-8217-0afd405fbd89"
     ],
     "tutorial": ""
 }

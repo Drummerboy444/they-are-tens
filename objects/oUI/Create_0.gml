@@ -4,7 +4,6 @@ iconW = 64;
 iconH = 64;
 iconGap = 20;
 
-selectedSupply = oRock;
 selectedBuilding = noone;
 
 icon_1_X1 = iconGap;

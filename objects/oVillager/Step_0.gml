@@ -1,3 +1,6 @@
+// To change colour of sprite if it's selected
+image_index = selected ? 1 : 0;
+
 switch mode {
 	case VillagerMode.leaving:
 		var nearestResource = FindNearest(targetSupply);
