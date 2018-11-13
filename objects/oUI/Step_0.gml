@@ -13,4 +13,8 @@ if(mouse_check_button_pressed(mb_left)){
 		selectedBuilding = oLumberMill;
 		with(oBuilder){ building = oLumberMill; }
 	}
+	if(CheckUIPosition(3)){
+		selectedBuilding = oQuarry;
+		with(oBuilder){ building = oQuarry; }
+	}
 }
