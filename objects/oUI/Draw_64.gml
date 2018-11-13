@@ -12,3 +12,5 @@ DrawUIButton(0,iconSize,iconGap,sTree,false);
 DrawUIButton(1,iconSize,iconGap,sRock,false);
 
 DrawUIButton(2,iconSize,iconGap,sLumberMill,oLumberMill==selectedBuilding);
+
+DrawUIButton(3,iconSize,iconGap,sQuarry,oQuarry==selectedBuilding);
