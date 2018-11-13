@@ -11,7 +11,7 @@ enum VillagerMode {
 // value: array of buildings
 resourceDropOffMap = ds_map_create();
 ds_map_add(resourceDropOffMap, oWood, [oVillage, oLumberMill]);
-ds_map_add(resourceDropOffMap, oStone, [oVillage]);
+ds_map_add(resourceDropOffMap, oStone, [oVillage, oQuarry]);
 
 // Layers
 layers = ds_map_create();
@@ -25,6 +25,7 @@ ds_map_add(layers, oTree, "Resources");
 ds_map_add(layers, oRock, "Resources");
 ds_map_add(layers, oVillage, "Buildings");
 ds_map_add(layers, oLumberMill, "Buildings");
+ds_map_add(layers, oQuarry, "Buildings");
 ds_map_add(layers, oVillager, "Villagers");
 
 // Sprites
@@ -38,6 +39,7 @@ ds_map_add(sprites, oTree, sTree);
 ds_map_add(sprites, oRock, sRock);
 ds_map_add(sprites, oVillage, sVillage);
 ds_map_add(sprites, oLumberMill, sLumberMill);
+ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
 
 // Initialise global objects
