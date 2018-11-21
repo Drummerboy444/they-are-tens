@@ -27,10 +27,25 @@ switch mode {
 		var nearestResource = FindNearest(targetSupply);
 		if (nearestResource == noone) {
 			mode = VillagerMode.idle;
+			alarm_set(0, -1);
+			doneGathering = false;
+			gathering = false;
 		} else if (point_distance(x, y, nearestResource.x, nearestResource.y) < walkSpeed) {
-			holding = Gather(nearestResource);
-			mode = VillagerMode.returning;
+			if (!gathering) {
+				alarm_set(0, gatherTime);
+				doneGathering = false;
+				gathering = true;
+			} else if (doneGathering) {
+				alarm_set(0, -1);
+				gathering = false;
+				doneGathering = false;
+				holding = Gather(nearestResource);
+				mode = VillagerMode.returning;
+			}
 		} else {
+			alarm_set(0, -1);
+			doneGathering = false;
+			gathering = false;
 			mode = VillagerMode.leaving;
 		}
 		break;
@@ -39,6 +54,6 @@ switch mode {
 		mode = VillagerMode.leaving;
 		break;
 	case VillagerMode.idle:
-		mode = VillagerMode.gathering;
+		mode = VillagerMode.leaving;
 		break;
 }

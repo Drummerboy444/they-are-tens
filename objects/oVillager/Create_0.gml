@@ -7,3 +7,9 @@ holding = noone;
 
 mode = VillagerMode.leaving;
 selected = false;
+
+gathering = false;
+doneGathering = false;
+gatherTime = 3 * room_speed;
+gatherBarHeight = 2;
+gatherBarBuffer = 3;
