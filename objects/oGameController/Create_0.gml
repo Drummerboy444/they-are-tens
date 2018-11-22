@@ -6,6 +6,11 @@ enum VillagerMode {
 	idle
 }
 
+enum EnemyMode {
+	movingToTarget,
+	idle
+}
+
 // A map that we can use to lookup where each resource can be dropped off
 // key:   Resource
 // value: array of buildings
@@ -27,6 +32,7 @@ ds_map_add(layers, oVillage, "Buildings");
 ds_map_add(layers, oLumberMill, "Buildings");
 ds_map_add(layers, oQuarry, "Buildings");
 ds_map_add(layers, oVillager, "Villagers");
+ds_map_add(layers, oEnemy, "Enemies");
 
 // Sprites
 sprites = ds_map_create();
@@ -41,6 +47,7 @@ ds_map_add(sprites, oVillage, sVillage);
 ds_map_add(sprites, oLumberMill, sLumberMill);
 ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
+ds_map_add(sprites, oEnemy, sEnemy);
 
 // Initialise global objects
 globalObjects = ds_map_create();
@@ -56,6 +63,7 @@ CreateInstances(globalObjects);
 gameObjects = ds_map_create();
 ds_map_add(gameObjects, oVillage, [[7, 4]]);
 ds_map_add(gameObjects, oVillager, [[7, 4], [1, 2]]);
+ds_map_add(gameObjects, oEnemy, [[1, 9]]);
 ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
 ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);
 CreateInstances(gameObjects);
