@@ -1,6 +1,6 @@
 switch mode {
 	case EnemyMode.movingToTarget:
-		var potentialTarget = FindNearest([oVillage, oVillager, oLumberMill, oQuarry]);
+		var potentialTarget = FindNearest(oGameController.friendlyUnits);
 		if (potentialTarget == noone) {
 			mode = EnemyMode.idle;
 			break;

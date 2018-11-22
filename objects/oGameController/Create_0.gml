@@ -11,6 +11,8 @@ enum EnemyMode {
 	idle
 }
 
+friendlyUnits = [oVillager, oVillage, oLumberMill, oQuarry];
+
 // A map that we can use to lookup where each resource can be dropped off
 // key:   Resource
 // value: array of buildings
