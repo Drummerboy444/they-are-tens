@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oQuarry",
     "eventList": [
-        
+        {
+            "id": "08bfe1f7-dbbf-4709-ab88-514d0e370af2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1e07dcb5-a439-4fc4-a6ae-cb7ba25938d1"
+        },
+        {
+            "id": "7581d505-7be0-43db-8012-e38910725149",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "1e07dcb5-a439-4fc4-a6ae-cb7ba25938d1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

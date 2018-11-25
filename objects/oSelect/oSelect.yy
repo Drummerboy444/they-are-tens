@@ -2,7 +2,7 @@
     "id": "9f39382d-c7b9-47ea-b0c0-b47df945535f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oVillagerSelect",
+    "name": "oSelect",
     "eventList": [
         {
             "id": "a63f7024-b0b8-4ef9-be4d-5746feb87e70",
