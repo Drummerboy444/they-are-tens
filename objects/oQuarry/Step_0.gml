@@ -1,0 +1,1 @@
+image_index = selected ? 1 : 0;
