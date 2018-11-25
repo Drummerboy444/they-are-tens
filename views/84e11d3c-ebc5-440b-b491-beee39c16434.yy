@@ -8,7 +8,7 @@
         "72494be5-3565-4345-8217-0afd405fbd89"
     ],
     "filterType": "GMScript",
-    "folderName": "Villager Select Scripts",
+    "folderName": "Select Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

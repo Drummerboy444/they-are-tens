@@ -82,7 +82,7 @@
             "Key": "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
             "Value": {
                 "id": "fbce8644-5a41-4d62-8907-3e9c2f49601b",
-                "resourcePath": "scripts\\SelectVillager\\SelectVillager.yy",
+                "resourcePath": "scripts\\SelectOne\\SelectOne.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "72494be5-3565-4345-8217-0afd405fbd89",
             "Value": {
                 "id": "fd0841b1-f72b-4350-b657-d8c5b39f6516",
-                "resourcePath": "scripts\\SelectVillagers\\SelectVillagers.yy",
+                "resourcePath": "scripts\\SelectMany\\SelectMany.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "9f39382d-c7b9-47ea-b0c0-b47df945535f",
             "Value": {
                 "id": "38674c7d-0d4b-4cb0-8fbd-7cafdc99540d",
-                "resourcePath": "objects\\oVillagerSelect\\oVillagerSelect.yy",
+                "resourcePath": "objects\\oSelect\\oSelect.yy",
                 "resourceType": "GMObject"
             }
         },
