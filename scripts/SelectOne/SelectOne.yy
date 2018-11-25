@@ -1,8 +1,8 @@
 {
-    "id": "72494be5-3565-4345-8217-0afd405fbd89",
+    "id": "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SelectVillagers",
+    "name": "SelectOne",
     "IsCompatibility": false,
     "IsDnD": false
 }

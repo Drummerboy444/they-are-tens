@@ -82,7 +82,7 @@
             "Key": "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
             "Value": {
                 "id": "fbce8644-5a41-4d62-8907-3e9c2f49601b",
-                "resourcePath": "scripts\\SelectVillager\\SelectVillager.yy",
+                "resourcePath": "scripts\\SelectOne\\SelectOne.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -147,6 +147,14 @@
             "Value": {
                 "id": "d83ddffc-7ead-44ce-8e9d-89e2c026a1ac",
                 "resourcePath": "views\\2fb7b5c6-bb8c-4d07-b1e2-83ffb1d93ecf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "345321c7-91ef-4a4c-87a3-d79f038d0461",
+            "Value": {
+                "id": "bb387050-cede-44b0-bf81-889873961b12",
+                "resourcePath": "views\\345321c7-91ef-4a4c-87a3-d79f038d0461.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "62b244e0-c626-4c4b-aa0c-547704b23c98",
+            "Value": {
+                "id": "8e3f9853-0142-43aa-9b3e-fdc6872fd73c",
+                "resourcePath": "views\\62b244e0-c626-4c4b-aa0c-547704b23c98.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "648f5904-1b73-452d-9ece-d17bdc0f8e2d",
             "Value": {
                 "id": "2523a3f4-2f59-4967-bf45-55547f8463ed",
@@ -290,7 +306,7 @@
             "Key": "72494be5-3565-4345-8217-0afd405fbd89",
             "Value": {
                 "id": "fd0841b1-f72b-4350-b657-d8c5b39f6516",
-                "resourcePath": "scripts\\SelectVillagers\\SelectVillagers.yy",
+                "resourcePath": "scripts\\SelectMany\\SelectMany.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "82dcdbb2-a90e-495b-8234-e8167289fe23",
+            "Value": {
+                "id": "29f5d70f-16a7-46ae-88c8-fc2d524d13ae",
+                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8330c8e3-27d9-4aba-bfa6-0f8f4677761e",
             "Value": {
                 "id": "d92980a4-86c6-4faf-98c1-d766baa7a750",
@@ -348,6 +372,14 @@
                 "id": "cffef61e-dfd6-4ea8-9522-a3d6ee61f11a",
                 "resourcePath": "objects\\oTree\\oTree.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a86a75d-0599-43b3-a767-6826726e92e4",
+            "Value": {
+                "id": "2f938f70-8f04-4e73-a462-c19194ad83cc",
+                "resourcePath": "scripts\\Deselect\\Deselect.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -402,7 +434,7 @@
             "Key": "9f39382d-c7b9-47ea-b0c0-b47df945535f",
             "Value": {
                 "id": "38674c7d-0d4b-4cb0-8fbd-7cafdc99540d",
-                "resourcePath": "objects\\oVillagerSelect\\oVillagerSelect.yy",
+                "resourcePath": "objects\\oSelect\\oSelect.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "f34bd2bb-6c0d-4e25-a3b5-d47090b90319",
+            "Value": {
+                "id": "79ae8b55-f6a7-4a6f-b657-6f74b214eeb1",
+                "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f8106fc9-40a7-40b5-b836-34f0d7cb14e3",
             "Value": {
                 "id": "7afda9bf-1812-4c56-9109-55852175b4aa",
@@ -588,6 +628,7 @@
         "257a7c52-7e8f-4e2c-af38-11866fc5c015",
         "192b1825-e8a1-4ee8-b854-1a8ada0ca113",
         "72494be5-3565-4345-8217-0afd405fbd89",
+        "8a86a75d-0599-43b3-a767-6826726e92e4",
         "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
         "64e48c62-0c43-4959-823e-6f543e72e6ea",
         "4669f3ed-5f77-478b-a9a1-1da599fc86de"
