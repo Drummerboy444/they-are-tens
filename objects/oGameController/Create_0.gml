@@ -56,6 +56,24 @@ ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
 ds_map_add(sprites, oEnemy, sEnemy);
 
+// Buttons
+buttonLists = ds_map_create();
+ds_map_add(buttonLists, "default", ["buildVillage","buildQuarry","buildLumberMill"]);
+ds_map_add(buttonLists, oVillager, ["collectWood","collectFood","collectStone"]);
+ds_map_add(buttonLists, oVillage, ["createVillager"]);
+ds_map_add(buttonLists, oQuarry, []);
+ds_map_add(buttonLists, oLumberMill, []);
+
+// Buttons
+buttons = ds_map_create();
+ds_map_add(buttons, "buildVillage", [sVillage, BuildVillage]);
+ds_map_add(buttons, "buildQuarry", [sQuarry, BuildQuarry]);
+ds_map_add(buttons, "buildLumberMill", [sLumberMill, BuildLumberMill]);
+ds_map_add(buttons, "collectWood", [sTree, CollectWood]);
+ds_map_add(buttons, "collectFood", [sBush, CollectFood]);
+ds_map_add(buttons, "collectStone", [sRock, CollectStone]);
+ds_map_add(buttons, "createVillager", [sVillager, CreateVillager]);
+
 // Initialise global objects
 globalObjects = ds_map_create();
 ds_map_add(globalObjects, oWood, [[0, 0]]);

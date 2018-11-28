@@ -9,6 +9,7 @@ var x1 = argument[0];
 var y1 = argument[1];
 var x2 = argument[2];
 var y2 = argument[3];
+var selectPriority = argument[4];
 
 var startX = min(x1, x2);
 var startY = min(y1, y2);
@@ -18,6 +19,7 @@ for(i=0; i<array_length_1d(selectPriority); i++){
 	var object = selectPriority[i];
 	var inRect = collision_rectangle(startX, startY, endX, endY, object, false, false);
 	if(inRect != noone){
+		oSelect.selectedObj = object;
 		with (object) {
 			selected = collision_rectangle(startX, startY, endX, endY, id, false, false);
 		}
