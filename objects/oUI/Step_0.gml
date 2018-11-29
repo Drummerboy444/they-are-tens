@@ -10,10 +10,15 @@ if(mouse_check_button_pressed(mb_left)){
 		}
 	}
 	if(CheckUIPosition(2)){
+		with(oVillager){
+			if(selected){ targetSupply = oBush; }
+		}
+	}
+	if(CheckUIPosition(3)){
 		selectedBuilding = oLumberMill;
 		with(oBuilder){ building = oLumberMill; }
 	}
-	if(CheckUIPosition(3)){
+	if(CheckUIPosition(4)){
 		selectedBuilding = oQuarry;
 		with(oBuilder){ building = oQuarry; }
 	}
