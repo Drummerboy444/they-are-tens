@@ -1,0 +1,1 @@
+with(oBuilder){ building = oQuarry; }

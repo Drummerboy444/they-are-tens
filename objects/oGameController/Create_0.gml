@@ -39,6 +39,13 @@ ds_map_add(layers, oQuarry, "Buildings");
 ds_map_add(layers, oVillager, "Villagers");
 ds_map_add(layers, oEnemy, "Enemies");
 
+// Costs in [wood,stone,food]
+costs = ds_map_create();
+ds_map_add(costs, oVillager, [0,0,2]);
+ds_map_add(costs, oVillage, [5,5,5]);
+ds_map_add(costs, oLumberMill, [2,3,0]);
+ds_map_add(costs, oQuarry, [3,2,0]);
+
 // Sprites
 sprites = ds_map_create();
 ds_map_add(sprites, oWood, "");
@@ -56,7 +63,7 @@ ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
 ds_map_add(sprites, oEnemy, sEnemy);
 
-// Buttons
+// Button commands for each selection
 buttonLists = ds_map_create();
 ds_map_add(buttonLists, "default", ["buildVillage","buildQuarry","buildLumberMill"]);
 ds_map_add(buttonLists, oVillager, ["collectWood","collectFood","collectStone"]);
@@ -64,7 +71,7 @@ ds_map_add(buttonLists, oVillage, ["createVillager"]);
 ds_map_add(buttonLists, oQuarry, []);
 ds_map_add(buttonLists, oLumberMill, []);
 
-// Buttons
+// Individual buttons
 buttons = ds_map_create();
 ds_map_add(buttons, "buildVillage", [sVillage, BuildVillage]);
 ds_map_add(buttons, "buildQuarry", [sQuarry, BuildQuarry]);

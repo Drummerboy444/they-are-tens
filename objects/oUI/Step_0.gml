@@ -1,25 +1,17 @@
 if(mouse_check_button_pressed(mb_left)){
-	if(CheckUIPosition(0)){
-		with(oVillager){
-			if(selected){ targetSupply = oTree;	}
+	
+	if(oSelect.selectedObj == noone){
+		var buttonList = ds_map_find_value(oGameController.buttonLists, "default");
+	}
+	else{
+		var buttonList = ds_map_find_value(oGameController.buttonLists, oSelect.selectedObj);
+	}
+
+	for(i=0; i<array_length_1d(buttonList); i++){
+		if(CheckUIPosition(i)){
+			selectedUILocation = i;
+			var button = ds_map_find_value(oGameController.buttons,buttonList[i]);
+			script_execute(button[1]);
 		}
-	}
-	if(CheckUIPosition(1)){
-		with(oVillager){
-			if(selected){ targetSupply = oRock; }
-		}
-	}
-	if(CheckUIPosition(2)){
-		with(oVillager){
-			if(selected){ targetSupply = oBush; }
-		}
-	}
-	if(CheckUIPosition(3)){
-		selectedBuilding = oLumberMill;
-		with(oBuilder){ building = oLumberMill; }
-	}
-	if(CheckUIPosition(4)){
-		selectedBuilding = oQuarry;
-		with(oBuilder){ building = oQuarry; }
 	}
 }
