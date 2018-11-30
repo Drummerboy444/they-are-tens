@@ -76,3 +76,8 @@ ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
 ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);
 ds_map_add(gameObjects, oBush, [[11, 1], [12, 2], [13, 3], [12, 1], [13, 2]]);
 CreateInstances(gameObjects);
+
+// Building costs *[wood,stone]*
+buildingCost = ds_map_create();
+ds_map_add(buildingCost, oLumberMill, [2, 1]);
+ds_map_add(buildingCost, oQuarry, [1, 2]);

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "21e49c8a-7daf-45dd-9e1e-48249cb8692e",
+            "Value": {
+                "id": "f9cb7a28-ca50-46c0-a71d-8309c038b557",
+                "resourcePath": "scripts\\ConstructBuilding\\ConstructBuilding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "257a7c52-7e8f-4e2c-af38-11866fc5c015",
             "Value": {
                 "id": "a216cd59-e00e-4550-952b-74bea26f34bc",
@@ -622,6 +630,7 @@
         "657c6e09-73fe-413a-b4d7-a7c9b0636f71",
         "08e27fff-3145-43ee-802a-e02959378f51",
         "e9841fde-47c0-4518-85d1-f2cb9208209b",
+        "21e49c8a-7daf-45dd-9e1e-48249cb8692e",
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
         "59ea6c57-4493-4ae3-85ba-a79ad7005671",
