@@ -1,4 +1,4 @@
-oUI.selectedUILocation = 100;
+ResetSelectedUILocation();
 with(oVillager){
 	if(selected){ targetSupply = oRock; }
 }

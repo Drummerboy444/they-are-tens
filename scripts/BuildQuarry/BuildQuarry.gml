@@ -1,1 +1,1 @@
-with(oBuilder){ building = oQuarry; }
+Build(oQuarry);

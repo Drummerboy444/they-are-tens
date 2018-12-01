@@ -5,3 +5,5 @@ var unit = argument[0];
 if (unit != noone) {
 	unit.selected = true;
 }
+
+oSelect.selectedObj = oSelect.clickedObj;

@@ -24,8 +24,8 @@ if (mouse_check_button(mb_left)) {
 
 if (mouse_check_button_released(mb_left)) {
 	selectedObj = noone;
+	// selectedObj will be set by either the SelectOne script or the SelectMany script
 	if (startX == endX && startY == endY) {
-		selectedObj = clickedObj;
 		SelectOne(clicked);
 	} else {
 		SelectMany(startX, startY, mouse_x, mouse_y, selectPriority);

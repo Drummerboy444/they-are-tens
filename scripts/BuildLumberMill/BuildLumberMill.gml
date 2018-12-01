@@ -1,1 +1,1 @@
-with(oBuilder){ building = oLumberMill; }
+Build(oLumberMill);

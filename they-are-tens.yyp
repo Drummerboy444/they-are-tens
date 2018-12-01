@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "57ac0dd6-d3fc-451d-aab6-b9dbe4bf3af1",
+            "Value": {
+                "id": "4f969e37-fc5c-42f2-b7f9-ffc8372d39ef",
+                "resourcePath": "scripts\\ResetSelectedUILocation\\ResetSelectedUILocation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "59ea6c57-4493-4ae3-85ba-a79ad7005671",
             "Value": {
                 "id": "fe991e90-eb36-484d-996e-dc5175c14f3f",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "c790447c-89e4-4a3b-aefd-6a4ebf43410b",
+            "Value": {
+                "id": "c7fa5d85-6b38-4ec7-8720-41a47272e0bd",
+                "resourcePath": "scripts\\Build\\Build.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c828fa16-0429-4e8a-a447-ec62f149c564",
             "Value": {
                 "id": "5c48dae3-7c44-458b-b9d9-2f23be6bef53",
@@ -686,6 +702,7 @@
         "657c6e09-73fe-413a-b4d7-a7c9b0636f71",
         "08e27fff-3145-43ee-802a-e02959378f51",
         "e9841fde-47c0-4518-85d1-f2cb9208209b",
+        "c790447c-89e4-4a3b-aefd-6a4ebf43410b",
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
         "59ea6c57-4493-4ae3-85ba-a79ad7005671",
@@ -696,6 +713,7 @@
         "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
         "64e48c62-0c43-4959-823e-6f543e72e6ea",
         "4669f3ed-5f77-478b-a9a1-1da599fc86de",
+        "57ac0dd6-d3fc-451d-aab6-b9dbe4bf3af1",
         "92d13adb-c56c-416e-897e-60daf24ee0ab",
         "fa9ec604-6f09-4e46-8f03-750adc500c47",
         "2e79d7da-a2cd-4c42-bb5c-b5fd9a1463fc",
