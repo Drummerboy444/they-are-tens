@@ -63,7 +63,7 @@ ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
 ds_map_add(sprites, oEnemy, sEnemy);
 
-// Button commands for each selection
+// Button commands for each selection in map value references the buttons map below
 buttonLists = ds_map_create();
 ds_map_add(buttonLists, "default", ["buildVillage","buildQuarry","buildLumberMill"]);
 ds_map_add(buttonLists, oVillager, ["collectWood","collectFood","collectStone"]);
@@ -71,7 +71,7 @@ ds_map_add(buttonLists, oVillage, ["createVillager"]);
 ds_map_add(buttonLists, oQuarry, []);
 ds_map_add(buttonLists, oLumberMill, []);
 
-// Individual buttons
+// Individual buttons in [sprite, relevant script]
 buttons = ds_map_create();
 ds_map_add(buttons, "buildVillage", [sVillage, BuildVillage]);
 ds_map_add(buttons, "buildQuarry", [sQuarry, BuildQuarry]);
