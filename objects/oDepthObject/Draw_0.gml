@@ -1,0 +1,1 @@
+// Empty draw event as depth objects will be drawn by the oRenderer

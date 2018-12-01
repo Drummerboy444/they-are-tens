@@ -30,6 +30,7 @@ ds_map_add(layers, oUI, "Globals");
 ds_map_add(layers, oSelect, "Globals");
 ds_map_add(layers, oBuilder, "Globals");
 ds_map_add(layers, oCamera, "Globals");
+ds_map_add(layers, oRenderer, "Globals");
 ds_map_add(layers, oTree, "Resources");
 ds_map_add(layers, oRock, "Resources");
 ds_map_add(layers, oBush, "Resources");
@@ -54,6 +55,7 @@ ds_map_add(sprites, oBerry, "");
 ds_map_add(sprites, oUI, "");
 ds_map_add(sprites, oBuilder, "");
 ds_map_add(sprites, oCamera, "");
+ds_map_add(sprites, oRenderer, "");
 ds_map_add(sprites, oTree, sTree);
 ds_map_add(sprites, oRock, sRock);
 ds_map_add(sprites, oBush, sBush);
@@ -90,6 +92,7 @@ ds_map_add(globalObjects, oUI, [[0, 0]]);
 ds_map_add(globalObjects, oSelect, [[0, 0]]);
 ds_map_add(globalObjects, oBuilder, [[0, 0]]);
 ds_map_add(globalObjects, oCamera, [[0, 0]]);
+ds_map_add(globalObjects, oRenderer, [[0, 0]]);
 CreateInstances(globalObjects);
 
 // Initialise game objects

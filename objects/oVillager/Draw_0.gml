@@ -1,5 +1,4 @@
-draw_self();
-
+// overrides the oDepthObject draw event in order to draw the villagers gathering bar
 if (gathering) {
 	draw_set_color(c_yellow);
 	var gatherBarWidth = (gatherTime - alarm_get(0)) * sprite_width / gatherTime;
