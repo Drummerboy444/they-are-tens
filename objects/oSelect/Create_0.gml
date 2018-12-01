@@ -13,3 +13,6 @@ selectPriority = [
 	oLumberMill,
 	oQuarry
 ];
+
+selectedObj = noone;
+clickedObj = noone;

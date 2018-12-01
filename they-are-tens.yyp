@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2e79d7da-a2cd-4c42-bb5c-b5fd9a1463fc",
+            "Value": {
+                "id": "082d6f1e-232e-4907-b3fa-27a444f7a05d",
+                "resourcePath": "scripts\\BuildQuarry\\BuildQuarry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fb7b5c6-bb8c-4d07-b1e2-83ffb1d93ecf",
             "Value": {
                 "id": "d83ddffc-7ead-44ce-8e9d-89e2c026a1ac",
@@ -164,6 +172,14 @@
                 "id": "a46934cf-8946-4705-8fe0-8bcf67d01f98",
                 "resourcePath": "objects\\oVillager\\oVillager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3654a65f-255c-453f-9d14-fc1a7e21c095",
+            "Value": {
+                "id": "c3171558-9092-4e9f-887f-8d97e3a7bc78",
+                "resourcePath": "scripts\\CollectStone\\CollectStone.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "57ac0dd6-d3fc-451d-aab6-b9dbe4bf3af1",
+            "Value": {
+                "id": "4f969e37-fc5c-42f2-b7f9-ffc8372d39ef",
+                "resourcePath": "scripts\\ResetSelectedUILocation\\ResetSelectedUILocation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "59ea6c57-4493-4ae3-85ba-a79ad7005671",
             "Value": {
                 "id": "fe991e90-eb36-484d-996e-dc5175c14f3f",
@@ -247,10 +271,26 @@
             }
         },
         {
+            "Key": "5e645d1d-d787-41a3-a199-9048dd36e7d0",
+            "Value": {
+                "id": "aa4fd25b-79a7-41fa-b9be-6ac86b51dfb6",
+                "resourcePath": "scripts\\CollectWood\\CollectWood.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5eff085d-f556-4ece-955c-ab75334ac785",
             "Value": {
                 "id": "2b22b27c-dd22-47d8-9456-57187ab18279",
                 "resourcePath": "scripts\\MoveTowards\\MoveTowards.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "61ea50b7-e6d4-4a73-927b-103e1f27eaa4",
+            "Value": {
+                "id": "603fb3ad-64ac-4244-a577-f1343675ea2b",
+                "resourcePath": "scripts\\CreateVillager\\CreateVillager.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -283,6 +323,14 @@
             "Value": {
                 "id": "f007eba4-64f5-4452-82f0-1296254c4ab4",
                 "resourcePath": "scripts\\Deposit\\Deposit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65a21cc1-5a58-4005-993a-a7d89756b24e",
+            "Value": {
+                "id": "b7787bd3-75d4-4ad1-a25a-7ff0aac3bf30",
+                "resourcePath": "scripts\\CollectFood\\CollectFood.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -388,6 +436,14 @@
                 "id": "8bee5ab3-1b85-4c0a-b479-36266206de39",
                 "resourcePath": "sprites\\sTree\\sTree.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "92d13adb-c56c-416e-897e-60daf24ee0ab",
+            "Value": {
+                "id": "51d37cf0-3593-4be6-a890-e15d17ef8090",
+                "resourcePath": "scripts\\BuildVillage\\BuildVillage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -527,6 +583,14 @@
             }
         },
         {
+            "Key": "c790447c-89e4-4a3b-aefd-6a4ebf43410b",
+            "Value": {
+                "id": "c7fa5d85-6b38-4ec7-8720-41a47272e0bd",
+                "resourcePath": "scripts\\Build\\Build.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c828fa16-0429-4e8a-a447-ec62f149c564",
             "Value": {
                 "id": "5c48dae3-7c44-458b-b9d9-2f23be6bef53",
@@ -591,6 +655,14 @@
             }
         },
         {
+            "Key": "ee1f2d5c-3653-41f8-82d2-0b7cf2fa1075",
+            "Value": {
+                "id": "4985fbba-3e6e-433c-8ada-5f71657e4759",
+                "resourcePath": "views\\ee1f2d5c-3653-41f8-82d2-0b7cf2fa1075.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f34bd2bb-6c0d-4e25-a3b5-d47090b90319",
             "Value": {
                 "id": "79ae8b55-f6a7-4a6f-b657-6f74b214eeb1",
@@ -604,6 +676,14 @@
                 "id": "7afda9bf-1812-4c56-9109-55852175b4aa",
                 "resourcePath": "objects\\oGameController\\oGameController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa9ec604-6f09-4e46-8f03-750adc500c47",
+            "Value": {
+                "id": "ef8625fa-4310-4f5c-a15c-f67a8c54c7aa",
+                "resourcePath": "scripts\\BuildLumberMill\\BuildLumberMill.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -622,6 +702,7 @@
         "657c6e09-73fe-413a-b4d7-a7c9b0636f71",
         "08e27fff-3145-43ee-802a-e02959378f51",
         "e9841fde-47c0-4518-85d1-f2cb9208209b",
+        "c790447c-89e4-4a3b-aefd-6a4ebf43410b",
         "d760533b-eb65-41aa-9b68-06fd467dfe57",
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
         "59ea6c57-4493-4ae3-85ba-a79ad7005671",
@@ -631,7 +712,15 @@
         "8a86a75d-0599-43b3-a767-6826726e92e4",
         "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
         "64e48c62-0c43-4959-823e-6f543e72e6ea",
-        "4669f3ed-5f77-478b-a9a1-1da599fc86de"
+        "4669f3ed-5f77-478b-a9a1-1da599fc86de",
+        "57ac0dd6-d3fc-451d-aab6-b9dbe4bf3af1",
+        "92d13adb-c56c-416e-897e-60daf24ee0ab",
+        "fa9ec604-6f09-4e46-8f03-750adc500c47",
+        "2e79d7da-a2cd-4c42-bb5c-b5fd9a1463fc",
+        "61ea50b7-e6d4-4a73-927b-103e1f27eaa4",
+        "3654a65f-255c-453f-9d14-fc1a7e21c095",
+        "65a21cc1-5a58-4005-993a-a7d89756b24e",
+        "5e645d1d-d787-41a3-a199-9048dd36e7d0"
     ],
     "tutorial": ""
 }

@@ -9,12 +9,14 @@ draw_text(100, 20, string(oWood.count));
 draw_text(100, 40, string(oStone.count));
 draw_text(100, 60, string(oBerry.count));
 
-DrawUIButton(0,iconSize,iconGap,sTree,false);
+if(oSelect.selectedObj == noone){
+	var buttonList = ds_map_find_value(oGameController.buttonLists, "default");
+}
+else{
+	var buttonList = ds_map_find_value(oGameController.buttonLists, oSelect.selectedObj);
+}
 
-DrawUIButton(1,iconSize,iconGap,sRock,false);
-
-DrawUIButton(2,iconSize,iconGap,sBush,false);
-
-DrawUIButton(3,iconSize,iconGap,sLumberMill,oLumberMill==selectedBuilding);
-
-DrawUIButton(4,iconSize,iconGap,sQuarry,oQuarry==selectedBuilding);
+for(i=0; i<array_length_1d(buttonList); i++){
+	var button = ds_map_find_value(oGameController.buttons,buttonList[i]);
+	DrawUIButton(i,iconSize,iconGap,button[0],i==selectedUILocation);
+}

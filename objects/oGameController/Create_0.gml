@@ -39,6 +39,13 @@ ds_map_add(layers, oQuarry, "Buildings");
 ds_map_add(layers, oVillager, "Villagers");
 ds_map_add(layers, oEnemy, "Enemies");
 
+// Costs in [wood,stone,food]
+costs = ds_map_create();
+ds_map_add(costs, oVillager, [0,0,2]);
+ds_map_add(costs, oVillage, [5,5,5]);
+ds_map_add(costs, oLumberMill, [2,3,0]);
+ds_map_add(costs, oQuarry, [3,2,0]);
+
 // Sprites
 sprites = ds_map_create();
 ds_map_add(sprites, oWood, "");
@@ -55,6 +62,24 @@ ds_map_add(sprites, oLumberMill, sLumberMill);
 ds_map_add(sprites, oQuarry, sQuarry);
 ds_map_add(sprites, oVillager, sVillager);
 ds_map_add(sprites, oEnemy, sEnemy);
+
+// Button commands for each selection in map value references the buttons map below
+buttonLists = ds_map_create();
+ds_map_add(buttonLists, "default", ["buildVillage","buildQuarry","buildLumberMill"]);
+ds_map_add(buttonLists, oVillager, ["collectWood","collectFood","collectStone"]);
+ds_map_add(buttonLists, oVillage, ["createVillager"]);
+ds_map_add(buttonLists, oQuarry, []);
+ds_map_add(buttonLists, oLumberMill, []);
+
+// Individual buttons in [sprite, relevant script]
+buttons = ds_map_create();
+ds_map_add(buttons, "buildVillage", [sVillage, BuildVillage]);
+ds_map_add(buttons, "buildQuarry", [sQuarry, BuildQuarry]);
+ds_map_add(buttons, "buildLumberMill", [sLumberMill, BuildLumberMill]);
+ds_map_add(buttons, "collectWood", [sTree, CollectWood]);
+ds_map_add(buttons, "collectFood", [sBush, CollectFood]);
+ds_map_add(buttons, "collectStone", [sRock, CollectStone]);
+ds_map_add(buttons, "createVillager", [sVillager, CreateVillager]);
 
 // Initialise global objects
 globalObjects = ds_map_create();
