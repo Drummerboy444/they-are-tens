@@ -1,4 +1,5 @@
-// overrides the oDepthObject draw event in order to draw the villagers gathering bar
+// Draw the villagers loading bar after the oRenderer has finished drawing, this ensures
+// that the loading bar will always be drawn on top of any oDepthObjects
 if (gathering) {
 	draw_set_color(c_yellow);
 	var gatherBarWidth = (gatherTime - alarm_get(0)) * sprite_width / gatherTime;
