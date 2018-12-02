@@ -7,7 +7,7 @@
         "8742d3ea-19f5-4cbc-97ba-f4c3fa84567f"
     ],
     "filterType": "GMScript",
-    "folderName": "Draw",
+    "folderName": "Depth System",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
