@@ -8,8 +8,7 @@ while (ds_map_size(objects) > 0) {
 	for (i = 0; i < array_length_1d(coordinateArray); i++) {
 		var gridCoordinate = coordinateArray[i];
 		var coordinate = CoordinateFromGrid(gridCoordinate);
-		var spawnLayer = ds_map_find_value(oGameController.layers, objectToAdd);
-		instance_create_layer(coordinate[0], coordinate[1], spawnLayer, objectToAdd);
+		instance_create_layer(coordinate[0], coordinate[1], oGameController.defaultLayer, objectToAdd);
 	}
 	ds_map_delete(objects, objectToAdd);
 }

@@ -22,23 +22,7 @@ ds_map_add(resourceDropOffMap, oStone, [oVillage, oQuarry]);
 ds_map_add(resourceDropOffMap, oBerry, [oVillage]);
 
 // Layers
-layers = ds_map_create();
-ds_map_add(layers, oWood, "Globals");
-ds_map_add(layers, oStone, "Globals");
-ds_map_add(layers, oBerry, "Globals");
-ds_map_add(layers, oUI, "Globals");
-ds_map_add(layers, oSelect, "Globals");
-ds_map_add(layers, oBuilder, "Globals");
-ds_map_add(layers, oCamera, "Globals");
-ds_map_add(layers, oRenderer, "Globals");
-ds_map_add(layers, oTree, "Resources");
-ds_map_add(layers, oRock, "Resources");
-ds_map_add(layers, oBush, "Resources");
-ds_map_add(layers, oVillage, "Buildings");
-ds_map_add(layers, oLumberMill, "Buildings");
-ds_map_add(layers, oQuarry, "Buildings");
-ds_map_add(layers, oVillager, "Villagers");
-ds_map_add(layers, oEnemy, "Enemies");
+defaultLayer = "DefaultLayer";
 
 // Costs in [wood,stone,food]
 costs = ds_map_create();

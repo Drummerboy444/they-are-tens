@@ -1,6 +1,5 @@
 ResetSelectedUILocation();
 var cost = ds_map_find_value(oGameController.costs,oVillager);
-var layerName = ds_map_find_value(oGameController.layers,oVillager);
 with(oVillage){
 	if(selected){
 		var woodCost = cost[0];
@@ -10,7 +9,7 @@ with(oVillage){
 			&& oStone.count >= stoneCost
 			&& oBerry.count >= foodCost
 		){
-			instance_create_layer(x,y,layerName,oVillager);
+			instance_create_layer(x,y,oGameController.defaultLayer,oVillager);
 			oWood.count -= woodCost;
 			oStone.count -= stoneCost;
 			oBerry.count -= foodCost;
