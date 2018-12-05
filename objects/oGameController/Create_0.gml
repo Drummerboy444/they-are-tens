@@ -77,12 +77,14 @@ ds_map_add(globalObjects, oSelect, [[0, 0]]);
 ds_map_add(globalObjects, oBuilder, [[0, 0]]);
 ds_map_add(globalObjects, oCamera, [[0, 0]]);
 ds_map_add(globalObjects, oRenderer, [[0, 0]]);
+ds_map_add(globalObjects, oGrid, [[0,0]]);
 CreateInstances(globalObjects);
 
 // Initialise game objects
 gameObjects = ds_map_create();
 ds_map_add(gameObjects, oVillage, [[7, 4]]);
-ds_map_add(gameObjects, oVillager, [[7, 4], [1, 2]]);
+ds_map_add(gameObjects, oVillager, [[7, 6]]);
+ds_map_add(gameObjects, oSpearman, [[8, 5]]);
 ds_map_add(gameObjects, oEnemy, [[1, 9]]);
 ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
 ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);

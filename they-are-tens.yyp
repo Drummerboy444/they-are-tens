@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "4dfec14e-eda6-4d4c-9855-db27d394a0d3",
+            "Value": {
+                "id": "7855e9b5-8327-488a-9e36-397b1583c375",
+                "resourcePath": "views\\4dfec14e-eda6-4d4c-9855-db27d394a0d3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4f17e619-ad89-4755-83e2-9d4cd21d0bb8",
             "Value": {
                 "id": "d5a7f9e2-8976-4502-aded-3e5634ff3bb6",
@@ -236,6 +244,14 @@
                 "id": "14406954-dad3-4b24-a858-ae874b46b409",
                 "resourcePath": "sprites\\sQuarry\\sQuarry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54655530-5e73-40ca-9488-3c80ff0f7a45",
+            "Value": {
+                "id": "476dbeb2-fa6c-4cd6-97f1-25b51692d2a9",
+                "resourcePath": "objects\\oSpearman\\oSpearman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "66759a06-4fea-435a-b5aa-d08dbeb891ed",
+            "Value": {
+                "id": "da345a0c-0487-42f3-9177-bc3a4ab060bb",
+                "resourcePath": "scripts\\GridReset\\GridReset.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "67a36374-1a36-4690-a305-e4d6e23e7f26",
             "Value": {
                 "id": "8769a796-d2d9-4417-91d9-a36b907631a7",
@@ -439,6 +463,14 @@
             }
         },
         {
+            "Key": "8881ff0b-3c82-42fb-af33-e3377a6110b6",
+            "Value": {
+                "id": "2963dec3-ac57-4bf5-8232-09299b7a49e2",
+                "resourcePath": "objects\\oCircumnavigable\\oCircumnavigable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8974dece-0e06-4ae4-bfe6-2d691a42b6e1",
             "Value": {
                 "id": "cffef61e-dfd6-4ea8-9522-a3d6ee61f11a",
@@ -527,6 +559,14 @@
             }
         },
         {
+            "Key": "a0db896a-cc48-4f50-b3e8-58bec3a387c2",
+            "Value": {
+                "id": "cd196768-ee6f-4a3e-8d9e-f21e1e0fea19",
+                "resourcePath": "objects\\oGrid\\oGrid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1be90ea-e54a-4f6d-9385-681fa518058f",
             "Value": {
                 "id": "5e7c192f-7ee8-4139-b6a8-cb57594f7807",
@@ -588,6 +628,14 @@
                 "id": "158fbc1f-ab4d-48a6-bae1-ccef74e720ef",
                 "resourcePath": "scripts\\FindNearest\\FindNearest.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bf587971-4abf-4533-a5f1-1f9f7059d8b0",
+            "Value": {
+                "id": "6ae7ae8d-bd0d-4903-bd58-2b1dd7807df6",
+                "resourcePath": "sprites\\sSpearman\\sSpearman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -770,7 +818,8 @@
         "3654a65f-255c-453f-9d14-fc1a7e21c095",
         "65a21cc1-5a58-4005-993a-a7d89756b24e",
         "5e645d1d-d787-41a3-a199-9048dd36e7d0",
-        "8742d3ea-19f5-4cbc-97ba-f4c3fa84567f"
+        "8742d3ea-19f5-4cbc-97ba-f4c3fa84567f",
+        "66759a06-4fea-435a-b5aa-d08dbeb891ed"
     ],
     "tutorial": ""
 }
