@@ -1,4 +1,4 @@
-/// @description CreateInstances(objects, layer) Takes a map from objects to arrays of grid points and spawns them
+/// @description CreateInstances(objects) Takes a map from objects to arrays of grid points and spawns them
 /// @arg objects objects to add to the room
 objects = argument[0];
 
