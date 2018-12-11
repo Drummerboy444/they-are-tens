@@ -8,8 +8,9 @@ var name = object_get_name(other.object_index);
 // pixel will be drawn according the their drawPriority in the oRenderer. For example a villager will always be drawn
 // on top of a rock if they are both at the same depth.
 var objectImportance = ds_list_find_index(oRenderer.drawPriority, name) / ds_list_size(oRenderer.drawPriority);
+var depthValue = other.y + (other.sprite_height / 2) + objectImportance;
 
 var gridHeight = ds_grid_height(oRenderer.depthGrid);
 ds_grid_resize(oRenderer.depthGrid, 2, gridHeight + 1);
 ds_grid_add(oRenderer.depthGrid, 0, gridHeight, other.id);
-ds_grid_add(oRenderer.depthGrid, 1, gridHeight, other.y + objectImportance);
+ds_grid_add(oRenderer.depthGrid, 1, gridHeight, depthValue);
