@@ -4,20 +4,11 @@
     "mvc": "1.0",
     "name": "oStone",
     "eventList": [
-        {
-            "id": "944add7c-dfce-457e-a53f-8eebba9b9c6f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "3f370705-fea6-4bcd-a9be-6daf9653eca7"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "faac8e3a-9926-4612-b30b-761e9ca24908",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -1,6 +1,3 @@
-resource = oWood;
-maxResourceCount = 3;
-resourceCount = maxResourceCount;
-image_speed = 0;
-
 event_inherited();
+
+ConstructSupply(oWood,3);
