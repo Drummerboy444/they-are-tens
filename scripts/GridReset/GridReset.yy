@@ -1,8 +1,8 @@
 {
-    "id": "59ea6c57-4493-4ae3-85ba-a79ad7005671",
+    "id": "66759a06-4fea-435a-b5aa-d08dbeb891ed",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "CoordinateFromGrid",
+    "name": "GridReset",
     "IsCompatibility": false,
     "IsDnD": false
 }

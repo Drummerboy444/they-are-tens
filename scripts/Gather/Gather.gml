@@ -14,5 +14,6 @@ resourceSupply.image_index = floor(resourcesGone * spriteFrameCount / resourceSu
 
 if (resourceSupply.resourceCount == 0) {
 	instance_destroy(resourceSupply);
+	GridReset();
 }
 return resource;

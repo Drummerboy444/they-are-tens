@@ -18,3 +18,4 @@ if(oWood.count >= woodCost
 }
 oUI.selectedUILocation = noone;
 oBuilder.building = noone;
+GridReset();
