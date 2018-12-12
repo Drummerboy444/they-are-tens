@@ -6,8 +6,8 @@ var sprite = argument[0];
 var coordinate = argument[1];
 
 
-var widthInGridSquares = sprite_get_width(sprite) / global.GRID_SIZE;
-var heightInGridSquares = sprite_get_height(sprite) / global.GRID_SIZE;
+var widthInGridSquares = ceil(sprite_get_width(sprite) / global.GRID_SIZE);
+var heightInGridSquares = ceil(sprite_get_height(sprite) / global.GRID_SIZE);
 
 show_debug_message(widthInGridSquares)
 show_debug_message(widthInGridSquares mod 2)
