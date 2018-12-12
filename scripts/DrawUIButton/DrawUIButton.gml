@@ -28,6 +28,5 @@ draw_set_alpha(1);
 var spriteH = sprite_get_height(sprite);
 var spriteW = sprite_get_width(sprite);
 var spriteScale = min((iconSize*3/4)/spriteH, (iconSize*3/4)/spriteW);
-var newSpriteH = spriteH * spriteScale;
 
-draw_sprite_ext(sprite,0,(x1+x2)/2,(y1+y2 + newSpriteH)/2,spriteScale,spriteScale,0,c_white,1);
+draw_sprite_ext(sprite,0,(x1+x2)/2,(y1+y2)/2,spriteScale,spriteScale,0,c_white,1);
