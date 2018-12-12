@@ -1,5 +1,5 @@
 /// @description SelectVillagers(x1, y1, x2, y2, selectPriority) Changes to true the selected variable of all instances
-///												of the highest priority object present in a box
+///            of the highest priority object present in a box
 /// @arg x1 start x position
 /// @arg y1 start y position
 /// @arg x2 end x position

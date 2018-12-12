@@ -1,6 +1,3 @@
-resource = oStone;
-maxResourceCount = 3;
-resourceCount = maxResourceCount;
-image_speed = 0;
-
 event_inherited();
+
+ConstructSupply(oStone,3);

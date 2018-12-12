@@ -4,30 +4,11 @@
     "mvc": "1.0",
     "name": "oLumberMill",
     "eventList": [
-        {
-            "id": "18be45e4-20d4-403d-b66f-6447c86b27f8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7e1e0bbc-929b-45e4-ad07-a459ea34f930"
-        },
-        {
-            "id": "220e21d9-0b9e-4ded-a8c5-69a22650e905",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "7e1e0bbc-929b-45e4-ad07-a459ea34f930"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "8881ff0b-3c82-42fb-af33-e3377a6110b6",
+    "parentObjectId": "a6c004b4-0e2c-47be-9f78-9430d5d3f253",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

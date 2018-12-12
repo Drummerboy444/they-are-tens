@@ -1,5 +1,5 @@
 {
-    "id": "8a86a75d-0599-43b3-a767-6826726e92e4",
+    "id": "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "Deselect",
