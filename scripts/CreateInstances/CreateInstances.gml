@@ -9,6 +9,7 @@ while (ds_map_size(objects) > 0) {
 		var gridCoordinate = coordinateArray[i];		
 		var coordinate = PositionAccountingForSize(objectToAdd, gridCoordinate);
 		instance_create_layer(coordinate[0], coordinate[1], oGameController.defaultLayer, objectToAdd);
+		InsertWithGridPoint(objectToAdd, gridCoordinate);
 	}
 	ds_map_delete(objects, objectToAdd);
 }
