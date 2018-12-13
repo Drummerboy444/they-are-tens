@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "21f78513-6f96-474f-acac-2ff6770847d0",
+            "Value": {
+                "id": "6f9acf4e-d595-4b22-b8fb-faf4ede6916a",
+                "resourcePath": "views\\21f78513-6f96-474f-acac-2ff6770847d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "24ba7259-136d-4bd8-a220-ecb1204c6c31",
             "Value": {
                 "id": "0ab68551-9bfd-4edb-a4ec-675d47eb7721",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "a216cd59-e00e-4550-952b-74bea26f34bc",
                 "resourcePath": "scripts\\GetNearestGridPoint\\GetNearestGridPoint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "26d517ca-ae74-44b8-b26c-3fbd436ceba5",
+            "Value": {
+                "id": "45daae05-cf95-4592-98bb-fa4edc2fb2c6",
+                "resourcePath": "scripts\\RemoveWithGridPoint\\RemoveWithGridPoint.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -187,6 +203,14 @@
             "Value": {
                 "id": "d83ddffc-7ead-44ce-8e9d-89e2c026a1ac",
                 "resourcePath": "views\\2fb7b5c6-bb8c-4d07-b1e2-83ffb1d93ecf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "30fc8c27-21d5-4b24-8111-da60553320f5",
+            "Value": {
+                "id": "002d4be2-47ae-44fd-b7ec-e4e7bb74a490",
+                "resourcePath": "views\\30fc8c27-21d5-4b24-8111-da60553320f5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -420,6 +444,14 @@
                 "id": "d605474c-ae14-4a7f-b879-333576f715e7",
                 "resourcePath": "scripts\\DrawUIButton\\DrawUIButton.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "653a5832-7186-48cb-95e2-d372666e82a2",
+            "Value": {
+                "id": "80b39b23-27fe-44e4-a2d1-32b804967cf1",
+                "resourcePath": "objects\\oTrackable\\oTrackable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -895,6 +927,14 @@
             }
         },
         {
+            "Key": "d3b98426-adc3-4fb7-bda0-f939d86f6a8b",
+            "Value": {
+                "id": "609ed59a-2970-44af-8d32-f7a856e93369",
+                "resourcePath": "scripts\\RemoveWithGameCoordinate\\RemoveWithGameCoordinate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d4bf927a-69be-45c1-91b6-17b06b684ae7",
             "Value": {
                 "id": "088e4469-9bc9-45f4-a1db-343bf9e2f0fd",
@@ -1067,6 +1107,8 @@
         "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c",
         "9a6552cd-77f9-4c87-a348-974c0964bad5",
         "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb",
+        "26d517ca-ae74-44b8-b26c-3fbd436ceba5",
+        "d3b98426-adc3-4fb7-bda0-f939d86f6a8b",
         "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
         "32e1940d-d221-4bb9-96d4-13c8cbb496c6"
     ],

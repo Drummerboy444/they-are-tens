@@ -1,14 +1,14 @@
-/// @description InsertWithGameCoordinate(object, gameCoordinate) Inserts the given object into all of
+/// @description RemoveWithGameCoordinate(object, gameCoordinate) Removes the given object from all of
 /// the cells in the tracking grid that it spans
-/// @arg object the object to add
+/// @arg object the object to remove
 /// @arg coordinate the game coordinate that the object exists at
 var object = argument[0];
 var coordinate = argument[1];
 
 
-//We'll only add objects to the grid that have a sprite and are children of oTrackable
+//We'll only remove objects from the grid that have a sprite
 var spriteIndex = object_get_sprite(object);
-if (spriteIndex > -1 && object_is_ancestor(object, oTrackable)) {
+if (spriteIndex > -1) {
 	var width = sprite_get_width(spriteIndex);
 	var height = sprite_get_height(spriteIndex);
 
@@ -18,5 +18,5 @@ if (spriteIndex > -1 && object_is_ancestor(object, oTrackable)) {
 	var topSide = coordinate[1] - (height / 2);
 	var _y = floor(topSide / global.GRID_SIZE);
 
-	InsertWithGridPoint(object, [_x, _y]);
+	RemoveWithGridPoint(object, [_x, _y]);
 }
