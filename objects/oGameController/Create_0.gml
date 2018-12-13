@@ -94,10 +94,3 @@ ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
 ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);
 ds_map_add(gameObjects, oBush, [[11, 1], [12, 2], [13, 3], [12, 1], [13, 2]]);
 CreateInstances(gameObjects);
-
-
-show_debug_message(oRock);
-show_debug_message(ds_grid_get(oTrackingGrid.grid, 3, 2));
-show_debug_message(ds_grid_get(oTrackingGrid.grid, 3, 3));
-show_debug_message(ds_grid_get(oTrackingGrid.grid, 4, 2));
-show_debug_message(ds_grid_get(oTrackingGrid.grid, 4, 3));
