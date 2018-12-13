@@ -9,9 +9,6 @@ var coordinate = argument[1];
 var widthInGridSquares = ceil(sprite_get_width(sprite) / global.GRID_SIZE);
 var heightInGridSquares = ceil(sprite_get_height(sprite) / global.GRID_SIZE);
 
-show_debug_message(widthInGridSquares)
-show_debug_message(widthInGridSquares mod 2)
-
 var _x = 0;
 var _y = 0;
 if (widthInGridSquares mod 2 == 0) {
