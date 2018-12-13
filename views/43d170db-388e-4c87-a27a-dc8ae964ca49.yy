@@ -7,7 +7,7 @@
         "441c9e19-451d-42f4-91e7-2166429dcb01"
     ],
     "filterType": "GMObject",
-    "folderName": "GameState",
+    "folderName": "Game State",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

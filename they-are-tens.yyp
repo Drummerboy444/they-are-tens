@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "9a6552cd-77f9-4c87-a348-974c0964bad5",
+            "Value": {
+                "id": "a4684d73-880f-41a4-b2cb-1fea027f0021",
+                "resourcePath": "scripts\\InsertWithGridPoint\\InsertWithGridPoint.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
             "Value": {
                 "id": "29d69aa9-73de-40d4-b07a-5930026a4f59",
@@ -716,6 +724,14 @@
                 "id": "d9a338e1-96a5-477d-a2e0-11e4b4e36b64",
                 "resourcePath": "views\\af00928b-9efe-453d-9527-bf44e8f8132f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b09cdb2a-2cde-414c-a3c6-0273cfc45978",
+            "Value": {
+                "id": "b0d6ea85-5d06-4cfe-970d-aebb5c03033e",
+                "resourcePath": "scripts\\CreateGlobals\\CreateGlobals.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -855,11 +871,27 @@
             }
         },
         {
+            "Key": "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb",
+            "Value": {
+                "id": "df356716-3a88-4267-b43c-e6e6b77ec837",
+                "resourcePath": "scripts\\InsertWithGameCoordinate\\InsertWithGameCoordinate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d371c271-bb59-4d18-be7e-c03d5b712178",
             "Value": {
                 "id": "1b98d885-c669-40f5-8132-c33df2bffed7",
                 "resourcePath": "objects\\oBush\\oBush.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d4bf927a-69be-45c1-91b6-17b06b684ae7",
+            "Value": {
+                "id": "088e4469-9bc9-45f4-a1db-343bf9e2f0fd",
+                "resourcePath": "views\\d4bf927a-69be-45c1-91b6-17b06b684ae7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -983,6 +1015,7 @@
         "a28ffe66-8d58-4c80-b9e0-58173cc863d2",
         "89e4d828-f48d-4a56-b7da-d601b0d549e0",
         "b83e6556-8212-4b67-86ed-65d1315c062e",
+        "b09cdb2a-2cde-414c-a3c6-0273cfc45978",
         "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
         "64e48c62-0c43-4959-823e-6f543e72e6ea",
         "4669f3ed-5f77-478b-a9a1-1da599fc86de",
@@ -1007,7 +1040,9 @@
         "08e27fff-3145-43ee-802a-e02959378f51",
         "b682b126-1399-45d3-a81f-e46e88f5c65c",
         "be03f460-8e38-40e0-8ad9-48bc1db6fdf9",
-        "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c"
+        "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c",
+        "9a6552cd-77f9-4c87-a348-974c0964bad5",
+        "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb"
     ],
     "tutorial": ""
 }
