@@ -11,7 +11,8 @@ selectPriority = [
 	oVillager,
 	oVillage,
 	oLumberMill,
-	oQuarry
+	oQuarry,
+	oStoneWall
 ];
 
 selectedObj = noone;
