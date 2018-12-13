@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
+            "Value": {
+                "id": "252253a6-e9b7-4fed-a209-62f5659e408f",
+                "resourcePath": "scripts\\CellIsEmpty\\CellIsEmpty.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "345321c7-91ef-4a4c-87a3-d79f038d0461",
             "Value": {
                 "id": "bb387050-cede-44b0-bf81-889873961b12",
@@ -943,6 +951,14 @@
             }
         },
         {
+            "Key": "ece1dfa7-bd06-4cc5-8256-064b37fa60e0",
+            "Value": {
+                "id": "5aff9b42-137a-4752-9be2-e332b106a875",
+                "resourcePath": "views\\ece1dfa7-bd06-4cc5-8256-064b37fa60e0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ee1f2d5c-3653-41f8-82d2-0b7cf2fa1075",
             "Value": {
                 "id": "4985fbba-3e6e-433c-8ada-5f71657e4759",
@@ -988,6 +1004,14 @@
                 "id": "0cbc3bfa-da42-4317-b6d3-c22da31675ec",
                 "resourcePath": "views\\fbcf74f9-e2cf-4cba-ac4b-64bbaaf79758.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
+            "Value": {
+                "id": "b82349e9-b4b4-4b37-ad9d-934b7ee4c854",
+                "resourcePath": "scripts\\GetSurroundingCells\\GetSurroundingCells.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1042,7 +1066,9 @@
         "be03f460-8e38-40e0-8ad9-48bc1db6fdf9",
         "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c",
         "9a6552cd-77f9-4c87-a348-974c0964bad5",
-        "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb"
+        "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb",
+        "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
+        "32e1940d-d221-4bb9-96d4-13c8cbb496c6"
     ],
     "tutorial": ""
 }
