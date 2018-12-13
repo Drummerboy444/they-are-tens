@@ -239,6 +239,22 @@
             }
         },
         {
+            "Key": "43d170db-388e-4c87-a27a-dc8ae964ca49",
+            "Value": {
+                "id": "200e47e2-ed8d-4969-920c-80b57a4f238e",
+                "resourcePath": "views\\43d170db-388e-4c87-a27a-dc8ae964ca49.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "441c9e19-451d-42f4-91e7-2166429dcb01",
+            "Value": {
+                "id": "ce92ca1d-2a73-4056-993b-9c14c6865c89",
+                "resourcePath": "objects\\oTrackingGrid\\oTrackingGrid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4669f3ed-5f77-478b-a9a1-1da599fc86de",
             "Value": {
                 "id": "c65afcf6-21be-4111-a15c-855c74fe90df",
