@@ -215,19 +215,19 @@
             }
         },
         {
-            "Key": "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
-            "Value": {
-                "id": "252253a6-e9b7-4fed-a209-62f5659e408f",
-                "resourcePath": "scripts\\CellIsEmpty\\CellIsEmpty.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3156e1d7-ff8b-446d-97c3-885fd74e643a",
             "Value": {
                 "id": "ac2691c1-73e0-4487-a68e-e8ba5d7474c5",
                 "resourcePath": "sprites\\sStoneWall\\sStoneWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
+            "Value": {
+                "id": "252253a6-e9b7-4fed-a209-62f5659e408f",
+                "resourcePath": "scripts\\CellIsEmpty\\CellIsEmpty.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -628,6 +628,14 @@
                 "id": "c8d1ee46-b4f0-4f70-906a-bdd3522befbe",
                 "resourcePath": "views\\8bc7a7f7-59dc-4c5c-a2dd-d741a39aa9a3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d019ab9-f066-4b59-b06d-9137cbaf2fcf",
+            "Value": {
+                "id": "186a4102-bb22-472e-b1ab-57a7e1f19c16",
+                "resourcePath": "scripts\\GetCellContents\\GetCellContents.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1143,7 +1151,8 @@
         "26d517ca-ae74-44b8-b26c-3fbd436ceba5",
         "d3b98426-adc3-4fb7-bda0-f939d86f6a8b",
         "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
-        "32e1940d-d221-4bb9-96d4-13c8cbb496c6"
+        "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
+        "8d019ab9-f066-4b59-b06d-9137cbaf2fcf"
     ],
     "tutorial": ""
 }

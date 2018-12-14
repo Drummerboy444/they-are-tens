@@ -2,12 +2,12 @@
 /// and the surrounding cells representing the state of the surrounding cells in the tracking grid. This object
 /// must be used immediately after calling this script as it will be deleted by the oTrackingGrid at the end
 /// of the step.
-/// @arg girdCoordinate the grid coordinate to get the surrounding cells from
+/// @arg gridCoordinate the grid coordinate to get the surrounding cells from
 var gridCoordinate = argument[0];
 
 
 var region = ds_grid_create(3, 3);
-ds_grid_set_region(region, 0, 0, 2, 2, noone);
+ds_grid_clear(region, noone);
 
 var _x = gridCoordinate[0];
 var _y = gridCoordinate[1];
