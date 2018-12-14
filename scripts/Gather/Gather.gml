@@ -13,6 +13,7 @@ var resourcesGone = resourceSupply.maxResourceCount - resourceSupply.resourceCou
 resourceSupply.image_index = floor(resourcesGone * spriteFrameCount / resourceSupply.maxResourceCount);
 
 if (resourceSupply.resourceCount == 0) {
+	RemoveWithGameCoordinate(resourceSupply.object_index, [resourceSupply.x, resourceSupply.y]);
 	instance_destroy(resourceSupply);
 	GridReset();
 }

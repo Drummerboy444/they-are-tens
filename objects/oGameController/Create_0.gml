@@ -74,17 +74,19 @@ ds_map_add(buttons, "collectStone", [sRock, CollectStone]);
 ds_map_add(buttons, "createVillager", [sVillager, CreateVillager]);
 
 // Initialise global objects
-globalObjects = ds_map_create();
-ds_map_add(globalObjects, oWood, [[0, 0]]);
-ds_map_add(globalObjects, oStone, [[0, 0]]);
-ds_map_add(globalObjects, oBerry, [[0, 0]]);
-ds_map_add(globalObjects, oUI, [[0, 0]]);
-ds_map_add(globalObjects, oSelect, [[0, 0]]);
-ds_map_add(globalObjects, oBuilder, [[0, 0]]);
-ds_map_add(globalObjects, oCamera, [[0, 0]]);
-ds_map_add(globalObjects, oRenderer, [[0, 0]]);
-ds_map_add(globalObjects, oGrid, [[0,0]]);
-CreateInstances(globalObjects);
+globalObjects = [
+	oWood,
+	oStone,
+	oBerry,
+	oUI,
+	oSelect,
+	oBuilder,
+	oCamera,
+	oRenderer,
+	oGrid,
+	oTrackingGrid
+]
+CreateGlobals(globalObjects);
 
 // Initialise game objects
 gameObjects = ds_map_create();
