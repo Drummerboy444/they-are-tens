@@ -7,8 +7,7 @@ var gridCoordinate = argument[0];
 
 
 var region = ds_grid_create(3, 3);
-//ds_grid_clear(region, noone);
-ds_grid_set_region(region, 0, 0, 2, 2, noone);
+ds_grid_clear(region, noone);
 
 var _x = gridCoordinate[0];
 var _y = gridCoordinate[1];
