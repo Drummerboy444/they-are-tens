@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "3156e1d7-ff8b-446d-97c3-885fd74e643a",
+            "Value": {
+                "id": "ac2691c1-73e0-4487-a68e-e8ba5d7474c5",
+                "resourcePath": "sprites\\sStoneWall\\sStoneWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "345321c7-91ef-4a4c-87a3-d79f038d0461",
             "Value": {
                 "id": "bb387050-cede-44b0-bf81-889873961b12",
@@ -348,6 +356,14 @@
                 "id": "14406954-dad3-4b24-a858-ae874b46b409",
                 "resourcePath": "sprites\\sQuarry\\sQuarry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5356b801-4ccd-4e22-9ca2-b7898aae0d3c",
+            "Value": {
+                "id": "50aa6865-9fb6-4a2d-8302-bbefce11eedf",
+                "resourcePath": "scripts\\BuildStoneWall\\BuildStoneWall.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -508,6 +524,14 @@
                 "id": "2ee5f8d4-2ffd-40c7-a380-b05bdff44886",
                 "resourcePath": "views\\74dff94c-1012-48a0-ab78-f7ccf35fb348.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b221187-87c4-4539-b60c-494ea51b1802",
+            "Value": {
+                "id": "06c76ec3-24bd-491e-a126-6bae6ea7e526",
+                "resourcePath": "sprites\\sStoneWallConnectors\\sStoneWallConnectors.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -975,6 +999,14 @@
             }
         },
         {
+            "Key": "e240bf8c-57a3-4875-a15a-c83a173de8fb",
+            "Value": {
+                "id": "6588a4f9-3878-4331-bbce-8d2428d10b7f",
+                "resourcePath": "objects\\oStoneWall\\oStoneWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e4e072c4-5922-48c0-a4cf-b6a9e949eca9",
             "Value": {
                 "id": "2c68f078-1c29-4e8d-a633-496a058160ab",
@@ -1091,6 +1123,7 @@
         "3654a65f-255c-453f-9d14-fc1a7e21c095",
         "65a21cc1-5a58-4005-993a-a7d89756b24e",
         "5e645d1d-d787-41a3-a199-9048dd36e7d0",
+        "5356b801-4ccd-4e22-9ca2-b7898aae0d3c",
         "519026ea-2fd1-4896-8011-76c85df65091",
         "66759a06-4fea-435a-b5aa-d08dbeb891ed",
         "86056050-a3c2-4c3a-96f0-2788a21bf5e9",
