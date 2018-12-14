@@ -15,10 +15,10 @@ var _y = gridCoordinate[1];
 for (var i = -1; i <= 1; i++) {
 	for (var j = -1; j <= 1; j++) {
 		if (
-			i >= 0 &&
-			i < oTrackingGrid.gridWidth &&
-			j >= 0 &&
-			j < oTrackingGrid.gridHeight
+			_x + i >= 0 &&
+			_x + i < oTrackingGrid.gridWidth &&
+			_y + j >= 0 &&
+			_y + j < oTrackingGrid.gridHeight
 		) {
 			var cellContents = ds_grid_get(oTrackingGrid.grid, _x + i, _y + j);
 			ds_grid_set(region, i + 1, j + 1, cellContents);
