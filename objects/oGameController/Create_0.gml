@@ -43,9 +43,9 @@ ds_map_add(sprites, oUI, "");
 ds_map_add(sprites, oBuilder, "");
 ds_map_add(sprites, oCamera, "");
 ds_map_add(sprites, oRenderer, "");
-ds_map_add(sprites, oTree, sTree);
-ds_map_add(sprites, oRock, sRock);
-ds_map_add(sprites, oBush, sBush);
+ds_map_add(sprites, oTree, [sTree1,sTree2,sTree3]);
+ds_map_add(sprites, oRock, [sRock1,sRock2,sRock3]);
+ds_map_add(sprites, oBush, [sBush1,sBush2,sBush3]);
 ds_map_add(sprites, oVillage, sVillage);
 ds_map_add(sprites, oLumberMill, sLumberMill);
 ds_map_add(sprites, oQuarry, sQuarry);
@@ -68,9 +68,9 @@ ds_map_add(buttons, "buildVillage", [sVillage, BuildVillage]);
 ds_map_add(buttons, "buildQuarry", [sQuarry, BuildQuarry]);
 ds_map_add(buttons, "buildLumberMill", [sLumberMill, BuildLumberMill]);
 ds_map_add(buttons, "buildStoneWall", [sStoneWall, BuildStoneWall]);
-ds_map_add(buttons, "collectWood", [sTree, CollectWood]);
-ds_map_add(buttons, "collectFood", [sBush, CollectFood]);
-ds_map_add(buttons, "collectStone", [sRock, CollectStone]);
+ds_map_add(buttons, "collectWood", [sTree1, CollectWood]);
+ds_map_add(buttons, "collectFood", [sBush1, CollectFood]);
+ds_map_add(buttons, "collectStone", [sRock1, CollectStone]);
 ds_map_add(buttons, "createVillager", [sVillager, CreateVillager]);
 
 // Initialise global objects

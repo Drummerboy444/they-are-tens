@@ -4,9 +4,9 @@
     "mvc": "1.1",
     "name": "0bb1467b-dc78-451f-8587-23a845b33c70",
     "children": [
-        "929ebe8a-2304-470e-83c5-73bf614a9a6b",
-        "1d8160e5-47d5-4466-8211-d3997c620b77",
-        "810592f5-6f4b-4a52-8c96-0c5f3bcc6c6b"
+        "06bfcd20-f026-420f-a872-c7a44cf19612",
+        "45be01af-4fcc-4cab-b634-c070cfecd6a8",
+        "54d9f053-67b5-45f5-93b2-aa8cb72f0dc4"
     ],
     "filterType": "GMSprite",
     "folderName": "Resource Supplies",
