@@ -1,3 +1,5 @@
+randomize();
+
 enum VillagerMode {
 	gathering,
 	depositing,
