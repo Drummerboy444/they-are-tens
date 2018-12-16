@@ -5,7 +5,7 @@ walkSpeed = 1;
 targetSupply = oRock;
 holding = noone;
 
-mode = VillagerMode.leaving;
+mode = VillagerMode.idle;
 selected = false;
 
 gathering = false;

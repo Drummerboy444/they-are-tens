@@ -1,3 +1,3 @@
 event_inherited();
 
-ConstructSupply(oBerry,3);
+ConstructSupply(oBerry,50);

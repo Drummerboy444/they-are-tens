@@ -54,6 +54,5 @@ switch mode {
 		mode = VillagerMode.leaving;
 		break;
 	case VillagerMode.idle:
-		mode = VillagerMode.leaving;
 		break;
 }

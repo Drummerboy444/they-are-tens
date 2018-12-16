@@ -1,5 +1,6 @@
 randomize();
 
+
 enum VillagerMode {
 	gathering,
 	depositing,
@@ -30,11 +31,11 @@ defaultLayer = "DefaultLayer";
 
 // Costs in [wood,stone,food]
 costs = ds_map_create();
-ds_map_add(costs, oVillager, [0,0,2]);
-ds_map_add(costs, oVillage, [5,5,5]);
-ds_map_add(costs, oLumberMill, [2,3,0]);
-ds_map_add(costs, oQuarry, [3,2,0]);
-ds_map_add(costs, oStoneWall, [0,1,0]);
+ds_map_add(costs, oVillager, [0,0,10]);
+ds_map_add(costs, oVillage, [20,20,20]);
+ds_map_add(costs, oLumberMill, [10,10,0]);
+ds_map_add(costs, oQuarry, [10,10,0]);
+ds_map_add(costs, oStoneWall, [0,5,0]);
 
 // Sprites
 sprites = ds_map_create();
@@ -90,13 +91,5 @@ globalObjects = [
 ]
 CreateGlobals(globalObjects);
 
-// Initialise game objects
-gameObjects = ds_map_create();
-ds_map_add(gameObjects, oVillage, [[7, 4]]);
-ds_map_add(gameObjects, oVillager, [[7, 6]]);
-ds_map_add(gameObjects, oSpearman, [[9, 5]]);
-ds_map_add(gameObjects, oEnemy, [[1, 9]]);
-ds_map_add(gameObjects, oRock, [[3, 2], [3, 3], [4, 2]]);
-ds_map_add(gameObjects, oTree, [[11, 6], [12, 6], [13, 6], [12, 7], [13, 7]]);
-ds_map_add(gameObjects, oBush, [[11, 1], [12, 2], [13, 3], [12, 1], [13, 2]]);
+gameObjects = GenerateMap();
 CreateInstances(gameObjects);

@@ -1,3 +1,3 @@
 event_inherited();
 
-ConstructSupply(oStone,3);
+ConstructSupply(oStone,50);

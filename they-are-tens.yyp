@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "30f516f0-cd09-4bf0-ab2b-db5755c75c47",
+            "Value": {
+                "id": "310b22db-5e89-40b9-8d2c-0b0bc1127b40",
+                "resourcePath": "scripts\\InsertWithGridPointList\\InsertWithGridPointList.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30fc8c27-21d5-4b24-8111-da60553320f5",
             "Value": {
                 "id": "002d4be2-47ae-44fd-b7ec-e4e7bb74a490",
@@ -260,6 +268,14 @@
                 "id": "a46934cf-8946-4705-8fe0-8bcf67d01f98",
                 "resourcePath": "objects\\oVillager\\oVillager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "353b3253-5b30-41d0-8b1e-c6a1dd60512a",
+            "Value": {
+                "id": "4b079e5e-06ce-4809-98be-1d8b2f4f081e",
+                "resourcePath": "scripts\\GenerateMap\\GenerateMap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "4ee47e4e-954d-4919-b75c-fc81e51dc870",
+            "Value": {
+                "id": "2382a9a9-6a77-4f30-92c5-df72deb18836",
+                "resourcePath": "views\\4ee47e4e-954d-4919-b75c-fc81e51dc870.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4f17e619-ad89-4755-83e2-9d4cd21d0bb8",
             "Value": {
                 "id": "d5a7f9e2-8976-4502-aded-3e5634ff3bb6",
@@ -420,6 +444,14 @@
                 "id": "65cc803d-ae5b-4a77-b5ec-6fb16e88b8c9",
                 "resourcePath": "objects\\oRock\\oRock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "56320011-0e41-420c-9d1e-372f7fec7be9",
+            "Value": {
+                "id": "f4399214-dbf3-494d-b78f-97d22c2cf009",
+                "resourcePath": "scripts\\GenerateVillagerLocations\\GenerateVillagerLocations.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -604,6 +636,14 @@
                 "id": "7de5617e-ef5d-4bec-9503-d2209598bce2",
                 "resourcePath": "objects\\oLumberMill\\oLumberMill.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f5f2bc8-1c3a-4086-b628-6dae28e14604",
+            "Value": {
+                "id": "47798034-1b96-4e70-810e-57490cd98071",
+                "resourcePath": "scripts\\GenerateVillageLocations\\GenerateVillageLocations.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -967,6 +1007,14 @@
             }
         },
         {
+            "Key": "c2889f03-3947-4984-8e4c-afd7327307a0",
+            "Value": {
+                "id": "8e56f228-30cf-4333-8ac3-ae387c5a5749",
+                "resourcePath": "scripts\\GenerateLocationPatches\\GenerateLocationPatches.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c388d1f7-363a-48c6-af41-ca291a844c47",
             "Value": {
                 "id": "0494167c-6d67-4bed-a4ca-01f44d44f2e3",
@@ -1245,11 +1293,16 @@
         "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c",
         "9a6552cd-77f9-4c87-a348-974c0964bad5",
         "ce6bc6c9-c1ca-4318-b6cc-9c4ee38ddeeb",
+        "30f516f0-cd09-4bf0-ab2b-db5755c75c47",
         "26d517ca-ae74-44b8-b26c-3fbd436ceba5",
         "d3b98426-adc3-4fb7-bda0-f939d86f6a8b",
         "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
         "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
-        "8d019ab9-f066-4b59-b06d-9137cbaf2fcf"
+        "8d019ab9-f066-4b59-b06d-9137cbaf2fcf",
+        "353b3253-5b30-41d0-8b1e-c6a1dd60512a",
+        "7f5f2bc8-1c3a-4086-b628-6dae28e14604",
+        "56320011-0e41-420c-9d1e-372f7fec7be9",
+        "c2889f03-3947-4984-8e4c-afd7327307a0"
     ],
     "tutorial": ""
 }
