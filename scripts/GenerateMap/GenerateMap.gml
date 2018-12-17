@@ -24,6 +24,6 @@ ds_map_add(objectLocations, oRock, GenerateLocationPatches(oRock,numRockPatches,
 ds_map_add(objectLocations, oBush, GenerateLocationPatches(oBush,numBushPatches,hNumCells,hCentre,vNumCells,vCentre));
 ds_map_add(objectLocations, oTree, GenerateLocationPatches(oTree,numTreePatches,hNumCells,hCentre,vNumCells,vCentre));
 
-ds_grid_clear(oTrackingGrid.grid,noone);
+ClearTrackingGrid();
 
 return objectLocations;

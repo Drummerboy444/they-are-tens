@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "7b433812-0589-4683-8871-8d80046122d9",
+            "Value": {
+                "id": "7959270f-c029-4a10-a4c0-ab79970eaf26",
+                "resourcePath": "scripts\\ClearTrackingGrid\\ClearTrackingGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7c4ae4ef-77ea-47c8-a42f-f1dba76a5ba9",
             "Value": {
                 "id": "46ea9178-1292-43a2-a7e7-d34bb09b63e2",
@@ -1296,6 +1304,7 @@
         "30f516f0-cd09-4bf0-ab2b-db5755c75c47",
         "26d517ca-ae74-44b8-b26c-3fbd436ceba5",
         "d3b98426-adc3-4fb7-bda0-f939d86f6a8b",
+        "7b433812-0589-4683-8871-8d80046122d9",
         "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
         "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
         "8d019ab9-f066-4b59-b06d-9137cbaf2fcf",
