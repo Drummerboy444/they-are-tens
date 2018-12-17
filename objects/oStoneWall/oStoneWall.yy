@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oStoneWall",
     "eventList": [
-        
+        {
+            "id": "e7f42ca6-cd64-463f-af59-1690e5ec2e27",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e240bf8c-57a3-4875-a15a-c83a173de8fb"
+        },
+        {
+            "id": "9ed04a0e-6de5-424d-9b62-c6593879f9b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "e240bf8c-57a3-4875-a15a-c83a173de8fb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
