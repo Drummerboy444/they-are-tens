@@ -1,4 +1,7 @@
 ResetSelectedUILocation();
 with(oVillager){
-	if(selected){ targetSupply = oRock; }
+	if(selected){
+		targetSupply = oRock;
+		mode = VillagerMode.leaving;
+	}
 }
