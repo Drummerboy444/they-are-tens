@@ -1,27 +1,29 @@
 /// @description GenerateMap() Generates a map
 
-hNumCells = floor(room_width/16)-1;
-hCentre = floor(room_width/32);
+var hNumCells = floor(room_width/global.GRID_SIZE)-1;
+var hCentre = floor(room_width/(global.GRID_SIZE*2));
 
-vNumCells = floor(room_height/16)-1;
-vCentre = floor(room_height/32);
+var vNumCells = floor(room_height/global.GRID_SIZE)-1;
+var vCentre = floor(room_height/(global.GRID_SIZE*2));
 
-numRockPatches = 10;
-numBushPatches = 10;
-numTreePatches = 300;
+var numRockPatches = 10;
+var numBushPatches = 10;
+var numTreePatches = 200;
 
 var objectLocations = ds_map_create();
 
-ds_map_add(objectLocations, oVillage, GenerateVillageLocations());
+ds_map_add(objectLocations, oVillage, GenerateVillageLocations(hCentre,vCentre));
 
-ds_map_add(objectLocations, oVillager, GenerateVillagerLocations());
+ds_map_add(objectLocations, oVillager, GenerateVillagerLocations(hCentre,vCentre));
 
 ds_map_add(objectLocations, oSpearman, [[hCentre+3,vCentre+3]]);
 
 ds_map_add(objectLocations, oEnemy, [[1, 9]]);
 
-ds_map_add(objectLocations, oRock, GenerateLocationPatches(oRock,numRockPatches));
-ds_map_add(objectLocations, oBush, GenerateLocationPatches(oBush,numBushPatches));
-ds_map_add(objectLocations, oTree, GenerateLocationPatches(oTree,numTreePatches));
+ds_map_add(objectLocations, oRock, GenerateLocationPatches(oRock,numRockPatches,hNumCells,hCentre,vNumCells,vCentre));
+ds_map_add(objectLocations, oBush, GenerateLocationPatches(oBush,numBushPatches,hNumCells,hCentre,vNumCells,vCentre));
+ds_map_add(objectLocations, oTree, GenerateLocationPatches(oTree,numTreePatches,hNumCells,hCentre,vNumCells,vCentre));
+
+ds_grid_clear(oTrackingGrid.grid,noone);
 
 return objectLocations;

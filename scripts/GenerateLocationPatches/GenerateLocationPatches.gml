@@ -1,6 +1,9 @@
 var object = argument[0];
 var numPatches = argument[1];
-
+var hNumCells = argument[2];
+var hCentre = argument[3];
+var vNumCells = argument[4];
+var vCentre = argument[5];
 var instanceLocations = ds_list_create();
 
 // Cycle through for each patch
