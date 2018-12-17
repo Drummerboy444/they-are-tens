@@ -4,6 +4,7 @@ depthGrid = ds_grid_create(2, 0);
 drawPriority = ds_list_create();
 ds_list_add(drawPriority, "oVillage");
 ds_list_add(drawPriority, "oStoneWall");
+ds_list_add(drawPriority, "oStoneWallVertical");
 ds_list_add(drawPriority, "oLumberMill");
 ds_list_add(drawPriority, "oQuarry");
 ds_list_add(drawPriority, "oTree");
