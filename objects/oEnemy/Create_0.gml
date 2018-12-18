@@ -1,5 +1,7 @@
+event_inherited();
+
 walkSpeed = 0.5;
 
-target = noone;
+//target = noone;
 
 mode = EnemyMode.movingToTarget;
