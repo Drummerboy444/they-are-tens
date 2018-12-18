@@ -9,6 +9,7 @@ clicked = noone;
 // Descending priority
 selectPriority = [
 	oVillager,
+	oSpearman,
 	oVillage,
 	oLumberMill,
 	oQuarry,

@@ -9,7 +9,7 @@
         "39ad5ecf-5e35-4891-a243-dd7e4f9e3e0c"
     ],
     "filterType": "GMScript",
-    "folderName": "Selecting",
+    "folderName": "Selection",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
