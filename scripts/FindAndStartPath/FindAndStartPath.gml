@@ -8,6 +8,10 @@ var endCoordinate = argument[1];
 var path = argument[2];
 
 
+if (!object_is_ancestor(self.object_index, oUnit)) {
+	// Only units can path
+	return;
+}
 var xStart = startCoordinate[0];
 var yStart = startCoordinate[1];
 var xEnd = endCoordinate[0];
