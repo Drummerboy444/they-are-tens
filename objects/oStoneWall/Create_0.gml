@@ -9,4 +9,4 @@ var gridcoordinate = GetGridCoordinate([x,y]);
 
 var surroundingcells = GetSurroundingCells(gridcoordinate);
 
-ConnectStoneWalls(surroundingcells);
+ConnectWalls(surroundingcells, oStoneWallVertical, oStoneWallHorizontal, oStoneWallForwardsDiagonal, oStoneWallBackwardsDiagonal);

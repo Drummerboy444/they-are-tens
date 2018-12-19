@@ -250,7 +250,7 @@
             "Key": "321240da-7308-41d4-a4ee-fe7b6b8c6556",
             "Value": {
                 "id": "ca8178df-6882-4557-a218-444267bb5bdc",
-                "resourcePath": "scripts\\ConnectStoneWalls\\ConnectStoneWalls.yy",
+                "resourcePath": "scripts\\ConnectWalls\\ConnectWalls.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -354,7 +354,7 @@
             "Key": "3e73199f-0da9-4ce9-ad5a-c2a2679a0f38",
             "Value": {
                 "id": "1d47a5fc-3b95-4314-b1a6-61a823727fe1",
-                "resourcePath": "scripts\\ConnectStoneWall\\ConnectStoneWall.yy",
+                "resourcePath": "scripts\\ConnectWall\\ConnectWall.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "5ecfdf67-f428-46ad-a246-65b95446d0a7",
+            "Value": {
+                "id": "79ca7cc5-871f-4ed9-aa74-20735a9fafb5",
+                "resourcePath": "scripts\\DiagonalPlacementCheck\\DiagonalPlacementCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5eff085d-f556-4ece-955c-ab75334ac785",
             "Value": {
                 "id": "2b22b27c-dd22-47d8-9456-57187ab18279",
@@ -572,6 +580,14 @@
                 "id": "603fb3ad-64ac-4244-a577-f1343675ea2b",
                 "resourcePath": "scripts\\CreateVillager\\CreateVillager.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "626d730e-6187-4e2b-96e9-7a079be07889",
+            "Value": {
+                "id": "38ec7838-dc66-462c-b4fd-d77bf490a102",
+                "resourcePath": "views\\626d730e-6187-4e2b-96e9-7a079be07889.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -815,6 +831,14 @@
             }
         },
         {
+            "Key": "8e3fb24e-0765-4029-b721-a8218f1913f4",
+            "Value": {
+                "id": "fb5fa8cd-a72b-4896-a4f9-d2af4bc5b8ea",
+                "resourcePath": "objects\\oConnectable\\oConnectable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "929ebe8a-2304-470e-83c5-73bf614a9a6b",
             "Value": {
                 "id": "8bee5ab3-1b85-4c0a-b479-36266206de39",
@@ -1020,6 +1044,14 @@
                 "id": "ded1f329-e288-4362-bf02-d2ec3dceec90",
                 "resourcePath": "views\\b39181f9-b5b1-4215-b50f-aa17a5b4f09b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b492d248-51d4-4c99-9b2a-abc8e3d4970e",
+            "Value": {
+                "id": "83c5ca1d-0ded-45e4-ac27-039bc3c41775",
+                "resourcePath": "scripts\\ConnectDiagonalWalls\\ConnectDiagonalWalls.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1231,6 +1263,14 @@
             }
         },
         {
+            "Key": "d9e848d4-2662-4325-8244-aec4a2d5bf9e",
+            "Value": {
+                "id": "d10ab3b4-373d-49dd-8424-1272700d516e",
+                "resourcePath": "views\\d9e848d4-2662-4325-8244-aec4a2d5bf9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e1a4379f-ca34-467f-bc5c-c46775ee33df",
             "Value": {
                 "id": "099d0b08-0f54-4b53-9165-d788f59ad71d",
@@ -1426,7 +1466,9 @@
         "56320011-0e41-420c-9d1e-372f7fec7be9",
         "c2889f03-3947-4984-8e4c-afd7327307a0",
         "3e73199f-0da9-4ce9-ad5a-c2a2679a0f38",
-        "321240da-7308-41d4-a4ee-fe7b6b8c6556"
+        "321240da-7308-41d4-a4ee-fe7b6b8c6556",
+        "b492d248-51d4-4c99-9b2a-abc8e3d4970e",
+        "5ecfdf67-f428-46ad-a246-65b95446d0a7"
     ],
     "tutorial": ""
 }
