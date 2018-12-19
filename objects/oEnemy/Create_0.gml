@@ -1,5 +1,7 @@
 event_inherited();
 
-walkSpeed = 0.5;
+ConstructHostileUnit(1);
+
+target = noone;
 
 mode = EnemyMode.movingToTarget;
