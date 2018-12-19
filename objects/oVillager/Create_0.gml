@@ -1,6 +1,6 @@
 event_inherited();
 
-walkSpeed = 1;
+ConstructFriendlyUnit(1);
 
 targetSupply = oRock;
 holding = noone;
