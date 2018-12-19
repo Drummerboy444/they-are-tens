@@ -10,9 +10,13 @@ var gridcoordinate = argument[2];
 
 var cellContents = surroundingcells[# location[0], location[1]];
 if(cellContents != noone && object_is_ancestor(cellContents.object_index, oConnectable)){
-	var rebuild_x = gridcoordinate[0] + location[0] -1;
-	var rebuild_y = gridcoordinate[1] + location[1] -1;
-	var rebuildWall = oGrid.grid[# rebuild_x, rebuild_y];
+	//var rebuild_x = gridcoordinate[0] + location[0] -1;
+	//var rebuild_y = gridcoordinate[1] + location[1] -1;
+	//show_debug_message(rebuild_x);
+	//show_debug_message(rebuild_y);
+	//var rebuildWall = ds_grid_get(oGrid.grid, rebuild_x, rebuild_y);
+	var test = ds_grid_get(oGrid.grid, 10, 10);
+	show_debug_message(test);
 	show_debug_message(rebuildWall);
 	var rebuildWallClass = rebuildWall.object_index;
 	//if(rebuildWall.connectingwalls[# 0, 0] != noone){ instance_destroy(rebuildWall.connectingwalls[# 0, 0]); }

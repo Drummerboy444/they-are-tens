@@ -7,8 +7,8 @@ var coordinate = argument[1];
 
 
  //We'll only add objects to the grid that have a sprite and are children of oTrackable
-var spriteIndex = object_get_sprite(object);
-if (spriteIndex > -1 && object_is_ancestor(object, oTrackable)) {
+var spriteIndex = object_get_sprite(object.object_index);
+if (spriteIndex > -1 && object_is_ancestor(object.object_index, oTrackable)) {
 	var width = sprite_get_width(spriteIndex);
 	var height = sprite_get_height(spriteIndex);
 	
