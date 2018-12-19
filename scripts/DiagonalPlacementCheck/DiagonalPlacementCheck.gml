@@ -1,4 +1,4 @@
-/// @description DiagonalPlacementCheck(SurroundingCells, DiagonalLocation, DiagonalObject, CheckLocation1, CheckLocation2)
+/// @description DiagonalPlacementCheck(SurroundingCells, DiagonalLocation, DiagonalObject, CheckLocation1, CheckLocation2, ConnectingWall)
 /// Builds a diagonal connector wall based on the referenced DiagonalLocation and object if the 2 check locations
 /// are free off oConnectable child objects.
 /// @arg SurroundingCells ds_grid of surrounding cells.
@@ -6,16 +6,18 @@
 /// @arg DiagonalObject object of the diagonal wall to be built.
 /// @arg CheckLocation1 ds_grid location of the 1st location to check for oConnectable children before building.
 /// @arg CheckLocation2 ds_grid location of the 2nd location to check for oConnectable children before building.
+/// @arg ConnectingWalls ds_grid to be filled when a connecting wall is built from the object.
 var surroundingcells = argument[0]
 var diagonalLocation = argument[1];
 var diagonalObject = argument[2];
 var checkLocation1 = argument[3];
 var checkLocation2 = argument[4];
+var connectingwalls = argument[5];
 
 
 var cellContents = surroundingcells[# diagonalLocation[0], diagonalLocation[1]];
 if((checkLocation1 = noone && checkLocation2 = noone) 
-	or
+	||
 	(checkLocation1 != noone
 	&&
 	checkLocation2 != noone

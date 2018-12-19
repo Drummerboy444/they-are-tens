@@ -1,11 +1,13 @@
-/// @description ConnectWall(SurroundingCells, Coordinate, Connector) Builds connector object based on
+/// @description ConnectWall(SurroundingCells, Coordinate, Connector, ConnectingWalls) Builds connector object based on
 ///	the referenced surroundingcell and coordinate of the wall.
 /// @arg SurroundingCells ds_grid of the surrounding cells.
 /// @arg Coodinate the coordinate to check in the surrounding cells grid.
 /// @arg Connector the object to be constructed as a connector.
+/// @arg ConnectingWalls ds_grid to be filled when a connecting wall is built from the object.
 var surroundingcells = argument[0];
 var coordinate = argument[1];
 var connector = argument[2];
+var connectingwalls = argument[3];
 
 var cellContents = surroundingcells[# coordinate[0], coordinate[1]];
 if(cellContents != noone && object_is_ancestor(cellContents.object_index, oConnectable)){

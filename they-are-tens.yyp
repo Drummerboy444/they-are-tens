@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2fda5037-1ddd-40de-8849-fe30ee2f1e55",
+            "Value": {
+                "id": "e4ac1449-1745-44f8-869b-fdcdb20745a8",
+                "resourcePath": "scripts\\DeleteWallsOnBuild\\DeleteWallsOnBuild.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "30f516f0-cd09-4bf0-ab2b-db5755c75c47",
             "Value": {
                 "id": "310b22db-5e89-40b9-8d2c-0b0bc1127b40",
@@ -1047,6 +1055,14 @@
             }
         },
         {
+            "Key": "b45eeff7-1c1c-4631-a0d7-ec7fe3bda727",
+            "Value": {
+                "id": "795c6195-e38a-48a8-92d7-8362abd42c0a",
+                "resourcePath": "scripts\\RecalculateWallConnectorsAt\\RecalculateWallConnectorsAt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b492d248-51d4-4c99-9b2a-abc8e3d4970e",
             "Value": {
                 "id": "83c5ca1d-0ded-45e4-ac27-039bc3c41775",
@@ -1468,7 +1484,9 @@
         "3e73199f-0da9-4ce9-ad5a-c2a2679a0f38",
         "321240da-7308-41d4-a4ee-fe7b6b8c6556",
         "b492d248-51d4-4c99-9b2a-abc8e3d4970e",
-        "5ecfdf67-f428-46ad-a246-65b95446d0a7"
+        "5ecfdf67-f428-46ad-a246-65b95446d0a7",
+        "2fda5037-1ddd-40de-8849-fe30ee2f1e55",
+        "b45eeff7-1c1c-4631-a0d7-ec7fe3bda727"
     ],
     "tutorial": ""
 }

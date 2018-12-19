@@ -9,4 +9,6 @@ var gridcoordinate = GetGridCoordinate([x,y]);
 
 var surroundingcells = GetSurroundingCells(gridcoordinate);
 
-ConnectWalls(surroundingcells, oStoneWallVertical, oStoneWallHorizontal, oStoneWallForwardsDiagonal, oStoneWallBackwardsDiagonal);
+ConnectWalls(surroundingcells, oStoneWallVertical, oStoneWallHorizontal, oStoneWallForwardsDiagonal, oStoneWallBackwardsDiagonal, connectingwalls);
+
+DeleteWallsOnBuild(surroundingcells, gridcoordinate);
