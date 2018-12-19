@@ -6,11 +6,14 @@ var hCentre = floor(room_width/(global.GRID_SIZE*2));
 var vNumCells = floor(room_height/global.GRID_SIZE)-1;
 var vCentre = floor(room_height/(global.GRID_SIZE*2));
 
+var numRivers = 4;
 var numRockPatches = 10;
 var numBushPatches = 10;
 var numTreePatches = 200;
 
 var objectLocations = ds_map_create();
+
+ds_map_add(objectLocations, oRiver, GenerateRivers(numRivers));
 
 ds_map_add(objectLocations, oVillage, GenerateVillageLocations(hCentre,vCentre));
 
@@ -24,6 +27,6 @@ ds_map_add(objectLocations, oRock, GenerateLocationPatches(oRock,numRockPatches,
 ds_map_add(objectLocations, oBush, GenerateLocationPatches(oBush,numBushPatches,hNumCells,hCentre,vNumCells,vCentre));
 ds_map_add(objectLocations, oTree, GenerateLocationPatches(oTree,numTreePatches,hNumCells,hCentre,vNumCells,vCentre));
 
-ClearTrackingGrid();
+//ClearTrackingGrid();
 
 return objectLocations;

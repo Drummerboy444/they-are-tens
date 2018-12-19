@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "047a3375-b2f5-4c2a-b840-2a80ebbc96d8",
+            "Value": {
+                "id": "53391b91-865a-43b6-ac1f-f1d4815031b5",
+                "resourcePath": "scripts\\GenerateRiver\\GenerateRiver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06bfcd20-f026-420f-a872-c7a44cf19612",
             "Value": {
                 "id": "491e135c-c932-4c40-b35e-42a6032b6b5f",
@@ -87,6 +95,14 @@
             }
         },
         {
+            "Key": "0ddd64f0-428d-4761-ac97-ac50dfc10c8e",
+            "Value": {
+                "id": "725f0d3c-41a1-4c70-9e9c-eb75f2062fa5",
+                "resourcePath": "sprites\\river_01\\river_01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f8d0416-0f45-410a-a98c-15c2de687037",
             "Value": {
                 "id": "c2ed5f47-ccf7-4807-af7e-9209b3da7d55",
@@ -116,6 +132,14 @@
                 "id": "8ae879cc-2596-4c93-9648-445c08f80799",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1b97f855-cef4-4dc8-bbd8-bcffb73a3a51",
+            "Value": {
+                "id": "4da03491-41f3-4eed-b7e4-2b7872d87453",
+                "resourcePath": "sprites\\river_013\\river_013.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "365f3089-65c2-49ef-b077-bbeac5f3edc8",
+            "Value": {
+                "id": "03f580a2-b9bc-41c8-9258-79cc883bfb0f",
+                "resourcePath": "views\\365f3089-65c2-49ef-b077-bbeac5f3edc8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "372456ec-c516-4503-82bd-0616c82d95fc",
             "Value": {
                 "id": "b561be7d-8d18-4337-8d22-5c78cfcd3835",
@@ -423,6 +455,22 @@
             }
         },
         {
+            "Key": "4bcb9934-bec7-4189-8e61-e0d54aba2cc5",
+            "Value": {
+                "id": "e2e169db-2bf2-4e05-8046-138695f5baec",
+                "resourcePath": "views\\4bcb9934-bec7-4189-8e61-e0d54aba2cc5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4cab07cc-a233-4ecc-966c-9364c51c28f4",
+            "Value": {
+                "id": "581407e2-3da3-48cf-864c-8d00964e277a",
+                "resourcePath": "scripts\\CellOnBoundary\\CellOnBoundary.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4dfec14e-eda6-4d4c-9855-db27d394a0d3",
             "Value": {
                 "id": "7855e9b5-8327-488a-9e36-397b1583c375",
@@ -444,6 +492,14 @@
                 "id": "d5a7f9e2-8976-4502-aded-3e5634ff3bb6",
                 "resourcePath": "views\\4f17e619-ad89-4755-83e2-9d4cd21d0bb8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5017a232-4538-464a-bf67-1e3f36c2a8ca",
+            "Value": {
+                "id": "90da8325-ea00-47ca-ba26-398d3cef7d5c",
+                "resourcePath": "sprites\\sRiver\\sRiver.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,11 +703,27 @@
             }
         },
         {
+            "Key": "6bf01dea-cb96-4117-97de-9b6bb7696eff",
+            "Value": {
+                "id": "4175818d-82d8-4bdc-8191-bbb2d36af2b5",
+                "resourcePath": "sprites\\river_123\\river_123.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f50fc05-2486-4947-aadb-5361c6437be6",
             "Value": {
                 "id": "6f6e7b77-ebe7-4fd8-990d-866df395ad80",
                 "resourcePath": "objects\\oWood\\oWood.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "717403b9-95f7-4b81-8318-43780b0c18b9",
+            "Value": {
+                "id": "a8cc9cf8-4940-4840-a625-ae9e7fdab901",
+                "resourcePath": "scripts\\AppendList\\AppendList.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -703,11 +775,27 @@
             }
         },
         {
+            "Key": "7edce5bc-3926-4190-b22f-f6c53afd9183",
+            "Value": {
+                "id": "a0947d1e-e876-4195-a5bc-5a2aa011096b",
+                "resourcePath": "views\\7edce5bc-3926-4190-b22f-f6c53afd9183.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7f5f2bc8-1c3a-4086-b628-6dae28e14604",
             "Value": {
                 "id": "47798034-1b96-4e70-810e-57490cd98071",
                 "resourcePath": "scripts\\GenerateVillageLocations\\GenerateVillageLocations.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7f8ccfbe-6719-43e0-8a17-5a5a6bb1426c",
+            "Value": {
+                "id": "064556eb-38c6-427e-b5e6-88c7ebe95603",
+                "resourcePath": "sprites\\river_12\\river_12.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -831,11 +919,27 @@
             }
         },
         {
+            "Key": "93a85a9b-4a82-4e5b-8b97-6780da2a3d9b",
+            "Value": {
+                "id": "53b97ab2-5af1-40cd-835f-82e03040809f",
+                "resourcePath": "sprites\\river_23\\river_23.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "947bdd69-1d54-4438-bf1b-81076dfc2f3d",
             "Value": {
                 "id": "8ddea91a-7758-4937-b345-8a5dcc647ce0",
                 "resourcePath": "objects\\oStoneWallHorizontal\\oStoneWallHorizontal.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "94b034da-ed96-468b-945c-9e161cd5c446",
+            "Value": {
+                "id": "2af8eed9-615b-44f7-8aef-8a6c76a66d01",
+                "resourcePath": "sprites\\river_13\\river_13.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -876,6 +980,14 @@
                 "id": "29d69aa9-73de-40d4-b07a-5930026a4f59",
                 "resourcePath": "scripts\\GetNthUIPosition\\GetNthUIPosition.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9d401406-98cd-4d61-a92d-6f9a421bd701",
+            "Value": {
+                "id": "3288a63a-8b64-4756-959f-04d236f15ab7",
+                "resourcePath": "sprites\\river_02\\river_02.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -975,6 +1087,14 @@
             }
         },
         {
+            "Key": "ac9aee8b-a189-4398-9f1e-1ef24684824f",
+            "Value": {
+                "id": "c0cdd7b7-4d02-4d33-a341-6d977ad64364",
+                "resourcePath": "sprites\\river_023\\river_023.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad51a46d-4b57-46b9-80c1-d97d0cb57175",
             "Value": {
                 "id": "f8b832df-2a6e-4f40-95c8-2e562d7768c5",
@@ -1063,6 +1183,14 @@
             }
         },
         {
+            "Key": "b9389390-e84a-4010-a4c5-56f9edf59c25",
+            "Value": {
+                "id": "61c6c971-6e33-4cc2-9bf9-f0db1c145f71",
+                "resourcePath": "objects\\oRiver\\oRiver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be03f460-8e38-40e0-8ad9-48bc1db6fdf9",
             "Value": {
                 "id": "29135328-12a6-4852-b900-3141986ff0d4",
@@ -1131,6 +1259,22 @@
             "Value": {
                 "id": "0494167c-6d67-4bed-a4ca-01f44d44f2e3",
                 "resourcePath": "views\\c388d1f7-363a-48c6-af41-ca291a844c47.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3c01db6-85be-4178-8c06-bdd67cad0cda",
+            "Value": {
+                "id": "d59cce49-9b1b-4999-aa24-f31ae3fba69e",
+                "resourcePath": "sprites\\river_0123\\river_0123.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4783fc9-3063-4dda-97c9-174cab1e4896",
+            "Value": {
+                "id": "97fc33af-722b-4c37-97dc-6f4a4c27b60a",
+                "resourcePath": "views\\c4783fc9-3063-4dda-97c9-174cab1e4896.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1263,11 +1407,27 @@
             }
         },
         {
+            "Key": "e34c0871-1350-4742-aad3-d268dc1e2dd3",
+            "Value": {
+                "id": "fc9ba76e-dcdb-4f04-ab5e-5e1b6f948d51",
+                "resourcePath": "scripts\\GenerateRivers\\GenerateRivers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4e072c4-5922-48c0-a4cf-b6a9e949eca9",
             "Value": {
                 "id": "2c68f078-1c29-4e8d-a633-496a058160ab",
                 "resourcePath": "objects\\oFriendlyUnit\\oFriendlyUnit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6739ade-9d84-49ad-8717-df236fa4393c",
+            "Value": {
+                "id": "9d41dc30-a2bc-4cd8-9f46-6e4aae3515e8",
+                "resourcePath": "sprites\\river_03\\river_03.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1295,10 +1455,26 @@
             }
         },
         {
+            "Key": "eeaaad00-d993-4d4d-81a7-0c295fcb2f92",
+            "Value": {
+                "id": "42767ea4-996b-46d2-8e15-7e5260c8eb9e",
+                "resourcePath": "scripts\\GetRiverSprite\\GetRiverSprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f34bd2bb-6c0d-4e25-a3b5-d47090b90319",
             "Value": {
                 "id": "79ae8b55-f6a7-4a6f-b657-6f74b214eeb1",
                 "resourcePath": "sprites\\sEnemy\\sEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6334e16-396d-4d66-b4e7-c2fa1a3be128",
+            "Value": {
+                "id": "af553e4e-3f06-47ee-8456-cb42f12e815f",
+                "resourcePath": "sprites\\river_012\\river_012.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1385,6 +1561,7 @@
         "89e4d828-f48d-4a56-b7da-d601b0d549e0",
         "b83e6556-8212-4b67-86ed-65d1315c062e",
         "c680d099-daae-4215-8f4c-d2264b91038f",
+        "717403b9-95f7-4b81-8318-43780b0c18b9",
         "9a73f509-811c-4e71-a1f7-2000a1d5dc52",
         "64e48c62-0c43-4959-823e-6f543e72e6ea",
         "4669f3ed-5f77-478b-a9a1-1da599fc86de",
@@ -1421,10 +1598,14 @@
         "fc8a0ef1-836a-4d7d-a5ca-76ac8d137d83",
         "32e1940d-d221-4bb9-96d4-13c8cbb496c6",
         "8d019ab9-f066-4b59-b06d-9137cbaf2fcf",
+        "4cab07cc-a233-4ecc-966c-9364c51c28f4",
         "353b3253-5b30-41d0-8b1e-c6a1dd60512a",
         "7f5f2bc8-1c3a-4086-b628-6dae28e14604",
         "56320011-0e41-420c-9d1e-372f7fec7be9",
         "c2889f03-3947-4984-8e4c-afd7327307a0",
+        "e34c0871-1350-4742-aad3-d268dc1e2dd3",
+        "047a3375-b2f5-4c2a-b840-2a80ebbc96d8",
+        "eeaaad00-d993-4d4d-81a7-0c295fcb2f92",
         "3e73199f-0da9-4ce9-ad5a-c2a2679a0f38",
         "321240da-7308-41d4-a4ee-fe7b6b8c6556"
     ],
