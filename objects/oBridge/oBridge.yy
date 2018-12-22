@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oBridge",
     "eventList": [
-        
+        {
+            "id": "3e2c2f88-85cd-48ce-8fbd-e27645c4aaf6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8ad0e810-8e23-4e0a-aaf9-41de6b83f671"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
