@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03bc7b7c-16d2-4195-82cf-5d44101de2da",
+            "Value": {
+                "id": "9553a6f0-3c19-419f-9c59-5395e2c776f4",
+                "resourcePath": "sprites\\hWoodenBridge\\hWoodenBridge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "047a3375-b2f5-4c2a-b840-2a80ebbc96d8",
             "Value": {
                 "id": "53391b91-865a-43b6-ac1f-f1d4815031b5",
@@ -188,6 +196,14 @@
                 "id": "a216cd59-e00e-4550-952b-74bea26f34bc",
                 "resourcePath": "scripts\\GetNearestGridPoint\\GetNearestGridPoint.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "26cc0974-846d-4936-9360-48736a9febbe",
+            "Value": {
+                "id": "284a5d92-0729-45c3-8f4a-b0003910f42a",
+                "resourcePath": "sprites\\vWoodenBridge\\vWoodenBridge.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -884,6 +900,14 @@
                 "id": "a4a89492-e398-4bb2-8a8c-21563730ff7e",
                 "resourcePath": "scripts\\PositionAccountingForSize\\PositionAccountingForSize.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8ad0e810-8e23-4e0a-aaf9-41de6b83f671",
+            "Value": {
+                "id": "6c61d659-9a94-4ecf-b9ef-9bce3feac7f3",
+                "resourcePath": "objects\\oBridge\\oBridge.yy",
+                "resourceType": "GMObject"
             }
         },
         {

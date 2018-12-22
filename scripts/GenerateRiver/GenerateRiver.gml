@@ -37,6 +37,7 @@ switch startSide{
 var location = source;
 var terminated = false;
 var lastMove = 1;
+var moveLength = 3;
 
 while(!terminated){
 	// If cell isn't empty - end while loop without adding new river tile
@@ -54,17 +55,24 @@ while(!terminated){
 	ds_list_add(riverLocations,[location[0],location[1]]);
 	InsertWithGridPoint(oRiver,[location[0],location[1]]);
 	
-	var moveNum;
-	switch lastMove{
-		case 0:
-			moveNum = GetRandomInt(0,1);
-			break;
-		case 1:
-			moveNum = GetRandomInt(0,2);
-			break;
-		case 2:
-			moveNum = GetRandomInt(1,2);
-			break;
+	if(moveLength == 0){
+		var moveNum;
+		switch lastMove{
+			case 0:
+				moveNum = GetRandomInt(0,1);
+				break;
+			case 1:
+				moveNum = GetRandomInt(0,2);
+				break;
+			case 2:
+				moveNum = GetRandomInt(1,2);
+				break;
+		}
+		moveLength = 2;
+	}
+	else{
+		moveLength -= 1;
+		moveNum = lastMove;
 	}
 	if (location == source) moveNum = 1
 	show_debug_message(moveNum);

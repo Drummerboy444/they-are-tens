@@ -15,7 +15,9 @@
         "f6334e16-396d-4d66-b4e7-c2fa1a3be128",
         "7f8ccfbe-6719-43e0-8a17-5a5a6bb1426c",
         "1b97f855-cef4-4dc8-bbd8-bcffb73a3a51",
-        "94b034da-ed96-468b-945c-9e161cd5c446"
+        "94b034da-ed96-468b-945c-9e161cd5c446",
+        "26cc0974-846d-4936-9360-48736a9febbe",
+        "03bc7b7c-16d2-4195-82cf-5d44101de2da"
     ],
     "filterType": "GMSprite",
     "folderName": "River",
