@@ -16,7 +16,7 @@ enum EnemyMode {
 
 global.GRID_SIZE = 16;
 
-friendlyUnits = [oVillager, oVillage, oLumberMill, oQuarry, oStoneWall];
+friendlyUnits = [oVillager, oVillage, oLumberMill, oQuarry, oStoneWall, oSpearman];
 
 // A map that we can use to lookup where each resource can be dropped off
 // key:   Resource

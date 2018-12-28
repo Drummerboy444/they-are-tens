@@ -1,4 +1,6 @@
-walkSpeed = 0.5;
+event_inherited();
+
+ConstructHostileUnit(1);
 
 target = noone;
 

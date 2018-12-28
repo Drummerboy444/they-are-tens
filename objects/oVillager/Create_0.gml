@@ -1,12 +1,11 @@
-image_speed = 0;
+event_inherited();
 
-walkSpeed = 1;
+ConstructFriendlyUnit(1);
 
 targetSupply = oRock;
 holding = noone;
 
 mode = VillagerMode.idle;
-selected = false;
 
 gathering = false;
 doneGathering = false;
