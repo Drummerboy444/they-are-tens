@@ -15,9 +15,10 @@ var objectLocations = ds_map_create();
 
 ds_map_add(objectLocations, oRiver, GenerateRivers(numRivers));
 
-ds_map_add(objectLocations, oVillage, GenerateVillageLocations(hCentre,vCentre));
+var villageLocations = GenerateVillageLocations(hCentre,vCentre)
+ds_map_add(objectLocations, oVillage, villageLocations);
 
-ds_map_add(objectLocations, oVillager, GenerateVillagerLocations(hCentre,vCentre));
+ds_map_add(objectLocations, oVillager, GenerateVillagerLocations(villageLocations));
 
 ds_map_add(objectLocations, oSpearman, [[hCentre+3,vCentre+3]]);
 
